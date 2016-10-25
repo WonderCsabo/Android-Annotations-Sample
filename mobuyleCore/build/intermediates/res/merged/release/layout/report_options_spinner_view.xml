@@ -1,8 +1,0 @@
-<TextView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    style="@style/SpinnerItem"
-    android:textSize="@dimen/default_text_size"
-    android:layout_width="match_parent"
-    android:paddingRight="5dp"
-    android:layout_height="wrap_content" />
-    

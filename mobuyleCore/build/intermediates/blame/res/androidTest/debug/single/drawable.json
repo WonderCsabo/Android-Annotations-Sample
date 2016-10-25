@@ -1,0 +1,470 @@
+[
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/list_background_light_selector.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/list_background_light_selector.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_about_menu_icon_normal.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_about_menu_icon_normal.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_email.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_email.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/mobuyle_logo_dialog.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/mobuyle_logo_dialog.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_inset_background_normal.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_inset_background_normal.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_batch_menu_icon_normal.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_batch_menu_icon_normal.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_camera.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_camera.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/top_border.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/top_border.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_edit_blue.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_edit_blue.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_print.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_print.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_menu_toolbar_cc.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_menu_toolbar_cc.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/vreaderimage.jpg",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/vreaderimage.jpg"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/frame_background.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/frame_background.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_inset_background_red_disabled.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_inset_background_red_disabled.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_drawer.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_drawer.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/selector_navigation_item.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/selector_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_email_blue.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_email_blue.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_gsb.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_gsb.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_sms.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_sms.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_camera_blue.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_camera_blue.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_hgm.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_hgm.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/checkbox_on_background.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/checkbox_on_background.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/bicon.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/bicon.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_print_black.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_print_black.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_edit_black.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_edit_black.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_inset_background_pressed.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_inset_background_pressed.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_reader_readyforswipe_no_arrow.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_reader_readyforswipe_no_arrow.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_bar_background_normal.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_bar_background_normal.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_settings_menu_icon_normal.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_settings_menu_icon_normal.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_print_white.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_print_white.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/mobuyle_logo_menu_demo.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/mobuyle_logo_menu_demo.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_bar_borderless_background.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_bar_borderless_background.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_help_menu_icon_normal.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_help_menu_icon_normal.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/android_notification_icon.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/android_notification_icon.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_inset_background_red.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_inset_background_red.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_inset_background_disabled.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_inset_background_disabled.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/dropdown_triangle.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/dropdown_triangle.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/rounded_black_background.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/rounded_black_background.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/list_background_odd_selector.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/list_background_odd_selector.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_edit.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_edit.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_chevron_up.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_chevron_up.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_email_white.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_email_white.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_inset_background.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_inset_background.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/list_background_selected.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/list_background_selected.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/txn_marker_declined.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/txn_marker_declined.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_menu_help.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_menu_help.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/list_background_dark.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/list_background_dark.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/mobuyle_large_logo.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/mobuyle_large_logo.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_bar_borderless_background_pressed.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_bar_borderless_background_pressed.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_menu_spacer_icon.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_menu_spacer_icon.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_bar_borderless_background_normal.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_bar_borderless_background_normal.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_other_transaction_menu_icon_normal.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_other_transaction_menu_icon_normal.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_bar_borderless_background_disabled.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_bar_borderless_background_disabled.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_americanexpress.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_americanexpress.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/txn_marker_na.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/txn_marker_na.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/demo_indicator.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/demo_indicator.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/rounded_top_only_white_background.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/rounded_top_only_white_background.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_bar_background_pressed.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_bar_background_pressed.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_email_black.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_email_black.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_reports_menu_icon_normal.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_reports_menu_icon_normal.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/mobuyle_logo_menu.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/mobuyle_logo_menu.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/list_background_even_selector.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/list_background_even_selector.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/list_background_dark_selector.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/list_background_dark_selector.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_camera_black.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_camera_black.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_topbar_menu_normal.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_topbar_menu_normal.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/checkbox_off_background.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/checkbox_off_background.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_visa.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_visa.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_menu_pencil.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_menu_pencil.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_inset_background_red_pressed.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_inset_background_red_pressed.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_mastercard.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_mastercard.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_discover.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_discover.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_edit_white.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_edit_white.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_card_transaction_menu_icon_normal.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_card_transaction_menu_icon_normal.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_bar_background.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_bar_background.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_sms_blue.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_sms_blue.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/menu_background.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/menu_background.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_sms_white.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_sms_white.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_reader_readyforswipe.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_reader_readyforswipe.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_camera_white.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_camera_white.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_reader_notfound.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_reader_notfound.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_logout_menu_icon_normal.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_logout_menu_icon_normal.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/list_background_light.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/list_background_light.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/list_background_selected_selector.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/list_background_selected_selector.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_chevron_down.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_chevron_down.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_sms_black.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_sms_black.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/edit_text_error.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/edit_text_error.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/enum_setting_pseudo_spinner.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/enum_setting_pseudo_spinner.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_bar_background_disabled.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_bar_background_disabled.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/icon_print_blue.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/icon_print_blue.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/bg_texture.jpg",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/bg_texture.jpg"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/button_inset_background_red_normal.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/button_inset_background_red_normal.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/submenu_whiteline.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/submenu_whiteline.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/androidTest/debug/drawable/ic_delete.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/bundles/debug/res/drawable/ic_delete.png"
+    }
+]

@@ -1,0 +1,27 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+
+
+
+
+    -->
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light">
+
+        <!-- API 11 theme customizations can go here. -->
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:dialogTheme">@style/CustomDialogTheme</item>
+        <item name="android:spinnerItemStyle">@style/SpinnerItem</item>
+        <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItem</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="@android:background">#9933CC</item>
+        <item name="@android:textColor">#FAF5F7</item>
+    </style>
+
+    <style name="ActionBar" parent="android:style/Widget.Holo.ActionBar"></style>
+
+</resources>

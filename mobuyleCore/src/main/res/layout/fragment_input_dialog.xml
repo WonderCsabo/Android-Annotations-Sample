@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/input_dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/labelView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/alert_dialog_margin"
+        android:text="@string/emailRecieptPrompt"
+        android:textColor="@color/default_text_color"
+        android:textSize="@dimen/default_text_size_for_input_dialog_message" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionDone"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/error"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:minLines="2"
+        android:textColor="#ff0000" />
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        style="@style/ButtonContainer"
+        android:layout_gravity="bottom"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/cancelButton"
+	        style="@style/ButtonInContainer"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/okButton"
+	        style="@style/ButtonInContainer"
+            android:text="@string/ok" />
+    </LinearLayout>
+
+</LinearLayout>

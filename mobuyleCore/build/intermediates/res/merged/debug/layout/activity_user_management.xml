@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.MobuyleDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    style="@style/OutmostContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        style="@style/InnerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <include layout="@layout/demo_indicator" />
+
+        <LinearLayout
+            android:id="@+id/buttonContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="@dimen/dialog_top_margin"
+            android:background="@drawable/top_border" >
+
+            <Button
+                android:id="@+id/addUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|center_vertical"
+                android:text="@string/addUserButton"
+                android:textColor="@color/button_bar_text_color"
+                android:textSize="50sp" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/buttonContainer"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
+        </FrameLayout>
+    </RelativeLayout>
+
+    <include layout="@layout/slideout_menu" />
+
+</android.support.v4.widget.MobuyleDrawerLayout>

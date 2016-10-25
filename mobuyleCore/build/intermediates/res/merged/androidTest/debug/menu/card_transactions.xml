@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hps="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_card_reader"
+        android:icon="@drawable/icon_reader_notfound"
+        android:title=""
+        hps:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:enabled="false"
+                android:id="@+id/action_restart_transaction"
+                android:title="@string/restartTransaction"/>
+        </menu>
+    </item>
+
+</menu>

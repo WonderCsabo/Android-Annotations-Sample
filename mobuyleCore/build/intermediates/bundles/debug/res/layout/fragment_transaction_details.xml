@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/transaction_table_side_margin"
+                android:paddingLeft="@dimen/transaction_table_side_margin"
+                android:paddingRight="@dimen/transaction_table_side_margin"
+                android:paddingTop="@dimen/transaction_table_side_margin"
+                android:stretchColumns="1" >
+
+                <!-- TRANSACTION TYPE -->
+
+                <TableRow android:id="@+id/transTypeRow" >
+
+                    <TextView
+                        style="@style/TransactionInfoTableLeft"
+                        android:text="@string/transTypeDetailLabel" />
+
+                    <TextView
+                        android:id="@+id/transTypeText"
+                        style="@style/TransactionInfoTableRight" />
+                </TableRow>
+
+                <!-- STATUS -->
+
+                <TableRow android:id="@+id/statusRow" >
+
+                    <TextView
+                        style="@style/TransactionInfoTableLeft"
+                        android:text="@string/statusDetailLabel" />
+
+                    <TextView
+                        android:id="@+id/statusText"
+                        style="@style/TransactionInfoTableRight" />
+                </TableRow>
+
+                <!-- DATE/TIME -->
+
+                <TableRow android:id="@+id/dateTimeRow" >
+
+                    <TextView
+                        style="@style/TransactionInfoTableLeft"
+                        android:text="@string/dateTimeDetailLabel" />
+
+                    <TextView
+                        android:id="@+id/dateTimeText"
+                        style="@style/TransactionInfoTableRight" />
+                </TableRow>
+
+                <!-- TRANSACTION ID -->
+
+                <TableRow android:id="@+id/transactionIdRow" >
+
+                    <TextView
+                        style="@style/TransactionInfoTableLeft"
+                        android:text="@string/transactionIdDetailLabel" />
+
+                    <TextView
+                        android:id="@+id/transactionIdText"
+                        style="@style/TransactionInfoTableRight" />
+                </TableRow>
+
+                <!-- AUTHORIZATION CODE -->
+
+                <TableRow
+                    android:id="@+id/authCodeRow"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:text="@string/authorizationCodeDetailLabel" />
+
+                    <TextView
+                        android:id="@+id/authCodeText"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="end" />
+                </TableRow>
+
+                <!-- APN -->
+
+                <TableRow
+                    android:id="@+id/apnRow"
+                    android:layout_marginTop="20dp" >
+
+                    <TextView
+                        style="@style/TransactionInfoTableLeft"
+                        android:layout_weight="1"
+                        android:text="@string/apnLabel" />
+
+                    <TextView
+                        android:id="@+id/apnText"
+                        style="@style/TransactionInfoTableRight" />
+                </TableRow>
+
+                <!-- AID -->
+                <TableRow android:id="@+id/aidRow" >
+                    <TextView
+                        style="@style/TransactionInfoTableLeft"
+                        android:layout_weight="1"
+                        android:text="@string/aidLabel" />
+
+                    <TextView
+                        android:id="@+id/aidText"
+                        style="@style/TransactionInfoTableRight" />
+
+                </TableRow>
+                <!-- TC -->
+                                <TableRow
+                    android:id="@+id/tcRow" >
+
+                    <TextView
+                        style="@style/TransactionInfoTableLeft"
+                        android:layout_weight="1"
+                        android:id="@+id/tcLabel" />
+
+                    <TextView
+                        android:id="@+id/tcText"
+                        style="@style/TransactionInfoTableRight" />
+                </TableRow>
+                
+                                            <!-- CVM -->
+                <TableRow android:id="@+id/cvmRow" >
+
+                    <TextView
+                        style="@style/TransactionInfoTableLeft"
+                        android:layout_weight="1"
+                        android:text="@string/cvmLabel" />
+
+                    <TextView
+                        android:id="@+id/cvmText"
+                        style="@style/TransactionInfoTableRight" />
+                </TableRow>
+            </TableLayout>
+
+          
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="5"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/transaction_table_side_margin"
+                android:paddingLeft="@dimen/transaction_table_side_margin"
+                android:paddingRight="@dimen/transaction_table_side_margin"
+                android:paddingTop="@dimen/transaction_table_side_margin"
+                android:stretchColumns="1" >
+
+
+
+                <!-- INVOICE NUMBER -->
+
+                <TableRow android:id="@+id/invoiceNumberRow" >
+
+                    <TextView
+                        style="@style/TransactionInfoTableLeft"
+                        android:text="@string/invoiceNumberDetailLabel" />
+
+                    <TextView
+                        android:id="@+id/invoiceNumberText"
+                        style="@style/TransactionInfoTableRight" />
+                </TableRow>
+
+                <!-- LOGIN -->
+
+                <TableRow
+                    android:id="@+id/loginRow"
+                    android:layout_marginTop="20dp" >
+
+                    <TextView
+                        style="@style/TransactionInfoTableLeft"
+                        android:text="@string/loginDetailLabel" />
+
+                    <TextView
+                        android:id="@+id/loginText"
+                        style="@style/TransactionInfoTableRight" />
+                </TableRow>
+
+                <View
+                    android:id="@+id/hideableDivider"
+                    style="@style/Divider" />
+
+                <!-- SUBTOTAL -->
+
+                <TableRow android:id="@+id/subtotalRow" >
+
+                    <TextView
+                        style="@style/TransactionInfoTableLeft"
+                        android:text="@string/subtotalDetailLabel" />
+
+                    <TextView
+                        android:id="@+id/subtotalText"
+                        style="@style/TransactionInfoTableAmount" />
+                </TableRow>
+
+                <!-- TAX -->
+
+                <TableRow android:id="@+id/taxRow" >
+
+                    <TextView
+                        style="@style/TransactionInfoTableLeft"
+                        android:text="@string/taxDetailLabel" />
+
+                    <TextView
+                        android:id="@+id/taxText"
+                        style="@style/TransactionInfoTableAmount" />
+                </TableRow>
+
+                <!-- TIP -->
+
+                <TableRow android:id="@+id/tipRow" >
+
+                    <TextView
+                        style="@style/TransactionInfoTableLeft"
+                        android:text="@string/tipDetailLabel" />
+
+                    <TextView
+                        android:id="@+id/tipText"
+                        style="@style/TransactionInfoTableAmount" />
+                </TableRow>
+
+                <View style="@style/Divider" />
+
+                <!-- TOTAL -->
+
+                <TableRow android:id="@+id/totalRow" >
+
+                    <TextView
+                        style="@style/TransactionInfoTableLeft"
+                        android:text="@string/totalDetailLabel" />
+
+                    <TextView
+                        android:id="@+id/totalText"
+                        style="@style/TransactionInfoTableAmount" />
+                </TableRow>
+
+                <View style="@style/Divider" />
+
+                <!-- AVAILABLE BALANCE -->
+
+                <TableRow android:id="@+id/availableBalanceRow" >
+
+                    <TextView
+                        style="@style/TransactionInfoTableLeft"
+                        android:text="@string/availableBalanceDetailLabel" />
+
+                    <TextView
+                        android:id="@+id/availableBalanceText"
+                        style="@style/TransactionInfoTableAmount" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <View style="@style/Divider" />
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        style="@style/ButtonContainer"
+        android:layout_gravity="center|center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/voidButton"
+            style="@style/ButtonInContainer"
+            android:text="@string/voidText" />
+
+        <Button
+            android:id="@+id/receiptButton"
+            style="@style/ButtonInContainer"
+            android:text="@string/receiptLabel" />
+    </LinearLayout>
+
+</LinearLayout>

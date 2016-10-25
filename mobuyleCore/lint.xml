@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout-sw600dp/listitem_transaction.xml" />
+        <ignore path="res/layout/listitem_transaction.xml" />
+    </issue>
+    <issue id="InflateParams" severity="ignore" />
+    <issue id="NestedWeights">
+        <ignore path="res/layout-sw600dp/fragment_transaction_detail_list.xml" />
+        <ignore path="res/layout/fragment_adjust_tip.xml" />
+        <ignore path="res/layout/fragment_batch_summary.xml" />
+        <ignore path="res/layout/fragment_transaction_detail_list.xml" />
+        <ignore path="res/layout/fragment_transaction_details.xml" />
+    </issue>
+    <issue id="UseCompoundDrawables">
+        <ignore path="res/layout-sw600dp/listitem_transaction.xml" />
+        <ignore path="res/layout/listitem_settlement_step.xml" />
+        <ignore path="res/layout/listitem_transaction.xml" />
+    </issue>
+</lint>

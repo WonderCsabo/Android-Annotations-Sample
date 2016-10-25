@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/scrollableLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/reportHeaderLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <TextView
+                style="@style/tipAdjustHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="@string/dateTime" />
+
+            <TextView
+                style="@style/tipAdjustHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/tipAmount" />
+
+            <TextView
+                style="@style/tipAdjustHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/cardNum" />
+
+            <TextView
+                style="@style/tipAdjustHeader"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/total" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/emptyReportTextView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:gravity="center"
+            android:text="@string/noData"
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/tipAdjustListview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:dividerHeight="@dimen/txn_list_divider_height" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        style="@style/ButtonContainer"
+        android:layout_gravity="bottom"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/filterOptions"
+            style="@style/ButtonInContainer"
+            android:text="@string/options" />
+    </LinearLayout>
+
+</LinearLayout>

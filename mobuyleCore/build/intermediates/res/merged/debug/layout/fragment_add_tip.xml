@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/tipTableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            android:paddingRight="5dp" >
+
+            <LinearLayout
+                android:id="@+id/subtotalAmountRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/tipLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/add_tip_label_weight"
+                    android:gravity="right"
+                    android:paddingRight="10dip"
+                    android:text="@string/subtotal" />
+
+                <TextView
+                    android:id="@+id/subtotalAmountLabel"
+                    style="@style/tipLabelStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/zeroDollars" />
+
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/taxAmountRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/tipLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/add_tip_label_weight"
+                    android:gravity="right"
+                    android:paddingRight="10dip"
+                    android:text="@string/tax" />
+
+                <TextView
+                    android:id="@+id/taxAmountLabel"
+                    style="@style/tipLabelStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/zeroDollars" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/totalAmountRow"
+                android:paddingBottom="20dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/tipLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/add_tip_label_weight"
+                    android:gravity="right"
+                    android:paddingRight="10dip"
+                    android:text="@string/totalAmount" />
+
+                <TextView
+                    android:id="@+id/totalAmountLabel"
+                    style="@style/tipLabelStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/zeroDollars" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/availBalRow"
+                android:paddingBottom="20dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    style="@style/tipLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/add_tip_label_weight"
+                    android:gravity="right"
+                    android:paddingRight="10dip"
+                    android:text="@string/availableBalance" />
+
+                <TextView
+                    android:id="@+id/availBalAmountLabel"
+                    style="@style/tipLabelStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/zeroDollars" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tipAssist1Row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tipAssist1Label"
+                    style="@style/tipLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="10dip"
+                    android:text="@string/tenPercent" />
+
+                <TextView
+                    android:id="@+id/tip1Label"
+                    style="@style/tipLabelStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="10dip" />
+
+                    <RadioButton
+                        android:id="@+id/tip1Button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/tipAssist2Row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tipAssist2Label"
+                    style="@style/tipLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="10dip"
+                    android:text="@string/fifteenPercent" />
+
+                <TextView
+                    android:id="@+id/tip2Label"
+                    style="@style/tipLabelStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="10dip" />
+
+                    <RadioButton
+                        android:id="@+id/tip2Button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/tipAssist3Row" 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tipAssist3Label"
+                    style="@style/tipLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="10dip"
+                    android:text="@string/twentyPercent" />
+
+                <TextView
+                    android:id="@+id/tip3Label"
+                    style="@style/tipLabelStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="10dip" />
+
+                    <RadioButton
+                        android:id="@+id/tip3Button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout  
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tipAmountEditLabel"
+                    style="@style/tipLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="10dip"
+                    android:text="@string/otherAmount" />
+
+                <com.hps.mobuyle.core.widget.PecuniaryEditText
+                    android:id="@+id/tipAmountEditText"
+                    style="@style/tipEntryStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:hint="@string/zeroDollars"
+                    android:paddingRight="10dip" />
+
+                    <RadioButton
+                        android:id="@+id/tip4Button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"  />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/tipLabelStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dip"
+                    android:layout_weight="@integer/add_tip_label_weight"
+                    android:gravity="right"
+                    android:paddingRight="10dip"
+                    android:text="@string/totalWithTip" />
+
+                <TextView
+                    android:id="@+id/amountAfterTipLabel"
+                    style="@style/tipLabelStyle"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dip"
+                    android:gravity="right" />
+
+            </LinearLayout>
+
+            <!-- Error marquee -->
+
+            <LinearLayout
+                style="@style/RowStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <com.hps.mobuyle.core.widget.ScrollingMarquee_
+                    android:id="@+id/marquee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonContainer"
+            style="@style/ButtonContainer"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/tipTableLayout" >
+
+            <Button
+                android:id="@+id/submit"
+                style="@style/ButtonInContainer"
+                android:gravity="center|center_vertical"
+                android:text="@string/continueLabel" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

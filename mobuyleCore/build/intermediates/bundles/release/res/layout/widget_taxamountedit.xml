@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/labelText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:gravity="left|center_vertical"
+        android:text="@string/widgetLabel"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <LinearLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dip"
+        android:orientation="horizontal" >
+
+        <Button
+            style="@style/InsetButtonStyle"
+            android:id="@+id/buttonOverrideTax"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="@string/override" />
+
+        <com.hps.mobuyle.core.widget.PecuniaryEditText
+            android:id="@+id/editAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:hint="@string/zeroDollars" />
+    </LinearLayout>
+
+</LinearLayout>

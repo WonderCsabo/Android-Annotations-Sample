@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mobuyle="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_setup_merchant_credentials"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="10"
+        android:paddingLeft="@dimen/dialog_left_margin"
+        android:paddingRight="@dimen/dialog_right_margin" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="10dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="@string/question"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:paddingTop="5dip" />
+ 
+            <Spinner
+                android:id="@+id/questionsSpinner"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="@string/answer"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <com.hps.mobuyle.core.widget.EnhancedEditText
+                android:id="@+id/answer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:maxLength="50"
+                android:inputType="textNoSuggestions"
+                android:singleLine="true" />
+            
+            <com.hps.mobuyle.core.widget.ScrollingMarquee_
+                android:id="@+id/marquee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        style="@style/ButtonContainer"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancelButton"
+            style="@style/ButtonInContainer"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/continueButton"
+            style="@style/ButtonInContainer"
+            android:text="@string/continueLabel" />
+    </LinearLayout>
+
+</LinearLayout>

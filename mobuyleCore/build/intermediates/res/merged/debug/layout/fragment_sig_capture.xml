@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/buttonses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/clear"
+                style="@style/InsetButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/clear" />
+
+            <Button
+                android:id="@+id/accept"
+                style="@style/InsetButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="@string/accept" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/agreementText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonses"
+            android:gravity="center"
+            android:text="@string/signatureAgreement"
+            android:textSize="@dimen/signature_agreement_text_size" />
+
+        <TextView
+            android:id="@+id/cardholderLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/amountLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/cardholderLabel"
+            android:layout_marginRight="10dp" />
+
+        <RelativeLayout
+            android:id="@+id/signatureWidgetContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/agreementText"
+            android:layout_above="@id/cardholderLabel"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/frame_background"
+            android:padding="10dp" >
+
+            <com.hps.mobuyle.core.widget.SignatureWidget
+                android:id="@+id/signatureWidget"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

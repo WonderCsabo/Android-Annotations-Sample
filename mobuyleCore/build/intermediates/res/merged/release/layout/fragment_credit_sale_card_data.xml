@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mobuyle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dialog_bottom_margin"
+    android:paddingLeft="@dimen/dialog_left_margin"
+    android:paddingRight="@dimen/dialog_right_margin" >
+
+    <com.hps.mobuyle.core.widget.CheckBoxWidget
+        android:id="@+id/cardPresentWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/dialog_top_margin"
+        mobuyle:labelText="@string/cardPresent" />
+
+    <com.hps.mobuyle.core.widget.EnhancedEditTextWidget
+        android:id="@+id/securityCodeWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:inputType="number"
+        android:maxLength="4"
+        mobuyle:labelText="@string/securityCode" />
+
+    <com.hps.mobuyle.core.widget.EnhancedEditTextWidget
+        android:id="@+id/streetAddressWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:maxLength="20"
+        mobuyle:labelText="@string/streetAddress" />
+
+    <com.hps.mobuyle.core.widget.EnhancedEditTextWidget
+        android:id="@+id/zipCodeWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:gravity="center_vertical"
+        android:inputType="phone"
+        android:maxLength="9"
+        mobuyle:labelText="@string/zipCode" />
+
+    <com.hps.mobuyle.core.widget.EnhancedEditTextWidget
+        android:id="@+id/invoiceNumberWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:maxLength="15"
+        mobuyle:labelText="@string/invoiceNumber" />
+
+</LinearLayout>

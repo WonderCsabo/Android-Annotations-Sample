@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/src/main/shaders"/></dataSet><dataSet config="release"><source path="/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/src/release/shaders"/></dataSet></merger>

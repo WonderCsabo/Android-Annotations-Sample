@@ -1,0 +1,212 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Non-theme styles -->
+    <style name="NavigationMenuItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/menu_list_item_padding</item>
+        <item name="android:paddingBottom">@dimen/menu_list_item_padding</item>
+        <item name="android:paddingLeft">@dimen/menu_list_item_padding</item>
+        <item name="android:paddingRight">@dimen/menu_list_item_padding</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/selector_navigation_item</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:visibility">visible</item>
+    </style>
+
+    <style name="NavigationMenuItemIcon">
+        <item name="android:layout_width">@dimen/icon_size</item>
+        <item name="android:layout_height">@dimen/icon_size</item>
+        <item name="android:layout_weight">0</item>
+    </style>
+
+    <style name="NavigationMenuItemArrow">
+        <item name="android:layout_width">@dimen/arrow_size</item>
+        <item name="android:layout_height">@dimen/arrow_size</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:src">@drawable/icon_chevron_down</item>
+        <item name="android:contentDescription">@string/dropdown_description</item>
+    </style>
+
+    <style name="NavigationMenuItemText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingLeft">@dimen/menu_list_item_padding</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_menu_item</item>
+        <item name="android:textColor">@color/menu_text</item>
+    </style>
+
+    <style name="NavigationMenuSubitem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/menu_list_subitem_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/menu_list_subitem_vertical_padding</item>
+        <item name="android:paddingLeft">@dimen/menu_list_subitem_left_padding</item>
+        <item name="android:paddingRight">@dimen/menu_list_item_padding</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/selector_navigation_item</item>
+        <item name="android:textSize">@dimen/text_size_menu_subitem</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/menu_text</item>
+    </style>
+
+    <style name="tipLabelStyle" parent="@style/TextViewStyle">
+        <item name="android:textSize">@dimen/tipLabelTextSize</item>
+    </style>
+    
+    <style name="tipAdjustLabelStyle" parent="@style/TextViewStyle">
+        <item name="android:textSize">@dimen/tipAdjustLabelTextSize</item>
+    </style>
+    
+    <style name="tipEntryStyle" parent="@style/EditTextStyle">
+        <item name="android:textSize">@dimen/tipLabelTextSize</item>
+    </style>
+    
+    <style name="commercialCardLabelStyle" parent="android:TextAppearance">
+		<item name="android:textSize">16sp</item>
+		<item name="android:textColor">#222222</item>
+	</style>
+
+
+    <style name="RowStyle">
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="NoteStyle">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="SettingsRowLayoutStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">7dp</item>
+		<item name="android:paddingBottom">7dp</item>
+        <item name="android:minHeight">50dip</item>
+    </style>
+
+    <style name="SettingsRowTextStyle" parent="@style/TextViewStyle">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingLeft">10dip</item>
+    </style>
+
+    <style name="SettingsCheckBoxStyle">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:focusable">false</item>
+    </style>
+
+    <style name="SettingsRowSeparatorStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:background">@color/light_gray</item>
+    </style>
+
+    <style name="TransactionDetailRow">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0px</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textSize">@dimen/tipLabelTextSize</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="TransactionInfoTableLeft" parent="TextViewStyle">
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">5</item>
+    </style>
+
+    <style name="TransactionInfoTableRight" parent="TextViewStyle">
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">5</item>
+    </style>
+
+    <style name="TransactionInfoTableAmount" parent="TransactionInfoTableRight">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:paddingTop">@dimen/divider_padding</item>
+        <item name="android:paddingBottom">@dimen/divider_padding</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+    <style name="TransactionColorMarker">
+        <item name="android:layout_width">4dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="settingText" parent="TextViewStyle">
+        <item name="android:textSize">@dimen/settingTextSize</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="scrollingMarquee"  parent="@style/TextViewStyle">
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:textColor">#222222</item>
+    </style>
+
+    <style name="BatchHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="BatchHeaderText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:textSize">@dimen/tipLabelTextSize</item>
+    </style>
+
+    <style name="TransactionList">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">gone</item>
+    </style>
+    
+    <style name="Header" parent="TextViewStyle">
+        <item name="android:background">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="tipAdjustHeader" parent="Header">
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/tipAdjustLabelTextSize</item>
+    </style>
+
+    <style name="tipAdjustLineItem" parent="tipAdjustHeader">
+        <item name="android:textStyle">normal</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/tipAdjustLabelTextSize</item>
+	</style>
+
+    <!-- TRANSACTION FIELDS -->
+    <style name="InvoiceNumber">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLength">15</item>
+    </style>
+
+</resources>

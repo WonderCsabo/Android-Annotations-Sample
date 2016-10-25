@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_setup_merchant_credentials"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:paddingLeft="@dimen/dialog_left_margin"
+        android:paddingRight="@dimen/dialog_right_margin"
+        android:paddingTop="@dimen/dialog_top_margin"
+        android:src="@drawable/mobuyle_logo_dialog" />
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dialog_left_margin"
+        android:paddingRight="@dimen/dialog_right_margin"
+        android:text="@string/SetupDevicesDialogTitle" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="10"
+        android:paddingLeft="@dimen/dialog_left_margin"
+        android:paddingRight="@dimen/dialog_right_margin" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dip"
+            android:paddingLeft="5dip"
+            android:paddingRight="5dip"
+            android:paddingTop="10dip" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:gravity="left|center_vertical"
+                android:text="@string/cardReader"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <RadioGroup
+                android:id="@+id/cardReaderRadioGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="2dip" >
+
+                <RadioButton
+                    android:id="@+id/noCardReader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/none" />
+
+                <RadioButton
+                    android:id="@+id/idTech"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/idTech" />
+
+                <RadioButton
+                    android:id="@+id/anywhereCommerceReader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/anywhereCommerceReader" />
+
+                <RadioButton
+                    android:id="@+id/p25Reader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/p25Reader" />
+                <RadioButton
+                    android:id="@+id/icmpReader"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/readertype_icmp" />
+            </RadioGroup>
+
+			<TextView
+			    android:id="@+id/icmpReaderLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="5dip"
+                android:gravity="left|center_vertical"
+                android:text="@string/icmpReaderLabel"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <com.hps.mobuyle.core.widget.IcmpReaderRadioGroup_
+                android:id="@+id/icmpReaderRadioGroup"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="2dip" /> 
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:gravity="left|center_vertical"
+                android:text="@string/bluetoothPrinter"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <com.hps.mobuyle.core.widget.BluetoothPrinterRadioGroup_
+                android:id="@+id/bluetoothPrinterRadioGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="2dip" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.hps.mobuyle.core.widget.ScrollingMarquee_
+        android:id="@+id/marquee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        style="@style/ButtonContainer"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancelButton"
+            style="@style/ButtonInContainer"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/continueButton"
+            style="@style/ButtonInContainer"
+            android:text="@string/continueLabel" />
+    </LinearLayout>
+
+</LinearLayout>

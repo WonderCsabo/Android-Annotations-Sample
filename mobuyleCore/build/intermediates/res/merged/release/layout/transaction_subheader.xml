@@ -1,0 +1,15 @@
+<!-- TRANSACTION TYPE + AMOUNT -->
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/batchHeader"
+    style="@style/BatchHeader"
+    android:layout_gravity="center_horizontal">
+    <TextView
+        android:id="@+id/batchCount"
+        style="@style/BatchHeaderText"
+        android:gravity="left"
+        />
+    <TextView
+        android:id="@+id/batchTime"
+        style="@style/BatchHeaderText"
+        android:gravity="right|center_vertical" />
+</TableRow>

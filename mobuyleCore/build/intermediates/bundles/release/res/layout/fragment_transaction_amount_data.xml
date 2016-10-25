@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mobuyle="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dialog_bottom_margin"
+    android:paddingLeft="@dimen/dialog_left_margin"
+    android:paddingRight="@dimen/dialog_right_margin" >
+
+    <com.hps.mobuyle.core.widget.AmountEditWidget
+        android:id="@+id/subtotalAmountWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        mobuyle:labelText="@string/subtotal" />
+
+    <com.hps.mobuyle.core.widget.TaxAmountEditWidget
+        android:id="@+id/taxAmountWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        mobuyle:labelText="@string/tax" />
+
+    <com.hps.mobuyle.core.widget.AmountEditWidget
+        android:id="@+id/tipAmountWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        mobuyle:labelText="@string/tip" />
+
+    <com.hps.mobuyle.core.widget.AmountEditWidget
+        android:id="@+id/totalAmountWidget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="center_vertical"
+        mobuyle:labelText="@string/totalAmount" />
+
+</LinearLayout>

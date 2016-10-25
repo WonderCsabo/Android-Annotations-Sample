@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/debug/menu/card_transactions.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/src/main/res/menu/card_transactions.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/debug/menu/splash_screen.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/src/main/res/menu/splash_screen.xml"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/build/intermediates/res/merged/debug/menu/card_reader_menu.xml",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleCore/src/main/res/menu/card_reader_menu.xml"
+    }
+]

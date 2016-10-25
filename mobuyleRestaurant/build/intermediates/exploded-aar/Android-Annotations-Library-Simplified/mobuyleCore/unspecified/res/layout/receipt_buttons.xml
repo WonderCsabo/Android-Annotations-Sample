@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/buttonContainer"
+    style="@style/ButtonContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/actionButtonContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/photoButton"
+            android:layout_width="50dp"
+            android:layout_height="26dp"
+            android:background="@null"
+            android:contentDescription="@string/photo"
+            android:gravity="center|center_vertical"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_camera" />
+
+        <ImageButton
+            android:id="@+id/printButton"
+            android:layout_width="50dip"
+            android:layout_height="26dp"
+            android:background="@null"
+            android:contentDescription="@string/print"
+            android:gravity="center|center_vertical"
+            android:scaleType="fitCenter"
+            android:src="@drawable/icon_print" />
+
+        <ImageButton
+            android:id="@+id/noteButton"
+            android:layout_width="50dip"
+            android:layout_height="32dp"
+            android:background="@null"
+            android:contentDescription="@string/note"
+            android:gravity="center|center_vertical"
+            android:src="@drawable/icon_edit" />
+
+        <ImageButton
+            android:id="@+id/emailButton"
+            android:layout_width="50dip"
+            android:layout_height="32dp"
+            android:background="@null"
+            android:contentDescription="@string/email"
+            android:gravity="center|center_vertical"
+            android:src="@drawable/icon_email" />
+        
+        <ImageButton
+            android:id="@+id/smsButton"
+            android:layout_width="50dip"
+            android:layout_height="32dp"
+            android:background="@null"
+            android:contentDescription="@string/sms"
+            android:gravity="center|center_vertical"
+            android:src="@drawable/icon_sms" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:text="@string/finish" />
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right|center_vertical"
+        android:text="@string/ok"
+        android:visibility="gone" />
+
+</LinearLayout>

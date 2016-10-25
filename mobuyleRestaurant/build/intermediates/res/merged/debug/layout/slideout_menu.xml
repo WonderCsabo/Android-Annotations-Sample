@@ -1,0 +1,287 @@
+<!-- The navigation drawer -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigationDrawer"
+    android:layout_width="270dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@drawable/menu_background"
+    android:orientation="vertical">
+    
+    <ImageView
+        android:id="@+id/menuIcon"
+        style="@style/NavigationMenuItem"
+        android:contentDescription="@string/mobuyle"
+        android:src="@drawable/mobuyle_logo_menu"
+        android:clickable="false"/>
+        
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="vertical" >
+    
+        <LinearLayout
+            android:id="@+id/navigationDrawerItems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:orientation="vertical" >
+            
+            <LinearLayout
+                android:id="@+id/listItemCardTransactions"
+                style="@style/NavigationMenuItem"
+                tools:ignore="UseCompoundDrawables" >
+                
+                <ImageView
+                    style="@style/NavigationMenuItemIcon"
+                    android:contentDescription="@string/card_transactions"
+                    android:src="@drawable/icon_card_transaction_menu_icon_normal" />
+                    
+                <TextView
+                    style="@style/NavigationMenuItemText"
+                    android:text="@string/card_transactions" />
+            
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/listItemOtherTransactions"
+                style="@style/NavigationMenuItem"
+                tools:ignore="UseCompoundDrawables" >
+                
+                <ImageView
+                    style="@style/NavigationMenuItemIcon"
+                    android:contentDescription="@string/other_transactions"
+                    android:src="@drawable/icon_other_transaction_menu_icon_normal" />
+                    
+                <TextView
+                    style="@style/NavigationMenuItemText"
+                    android:text="@string/other_transactions" />
+                
+                <ImageView
+                    android:id="@+id/otherTransactionsArrow"
+                    style="@style/NavigationMenuItemArrow"
+                    tools:ignore="ContentDescription"/>
+            
+            </LinearLayout>
+            
+                <TextView
+                    android:id="@+id/listItemVoid"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/voidText" />
+        
+                <TextView
+                    android:id="@+id/listItemAdjustTips"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/adjust_tips" />
+    
+            <LinearLayout
+                android:id="@+id/listItemBatch"
+                style="@style/NavigationMenuItem"
+                tools:ignore="UseCompoundDrawables" >
+                
+                <ImageView
+                    style="@style/NavigationMenuItemIcon"
+                    android:contentDescription="@string/batch"
+                    android:src="@drawable/icon_batch_menu_icon_normal" />
+                    
+                <TextView
+                    style="@style/NavigationMenuItemText"
+                    android:text="@string/batch" />
+            
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/listItemReports"
+                style="@style/NavigationMenuItem"
+                tools:ignore="UseCompoundDrawables" >
+                
+                <ImageView
+                    style="@style/NavigationMenuItemIcon"
+                    android:contentDescription="@string/reports"
+                    android:src="@drawable/icon_reports_menu_icon_normal" />
+                    
+                <TextView
+                    style="@style/NavigationMenuItemText"
+                    android:text="@string/reports" />
+                
+                <ImageView
+                    android:id="@+id/reportsArrow"
+                    style="@style/NavigationMenuItemArrow"
+                    tools:ignore="ContentDescription"/>
+            
+            </LinearLayout>
+            
+                <TextView
+                    android:id="@+id/listItemBatchSummary"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/batch_summary" />
+        
+                <TextView
+                    android:id="@+id/listItemTransactionDetail"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/transaction_detail" />
+        
+                <TextView
+                    android:id="@+id/listItemGiftTransactionDetail"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/gift_transaction_detail" />
+        
+                <TextView
+                    android:id="@+id/listItemTipReport"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/tip_report" />
+    
+            <LinearLayout
+                android:id="@+id/listItemSettings"
+                style="@style/NavigationMenuItem"
+                tools:ignore="UseCompoundDrawables" >
+                
+                <ImageView
+                    style="@style/NavigationMenuItemIcon"
+                    android:contentDescription="@string/settings"
+                    android:src="@drawable/icon_settings_menu_icon_normal" />
+                    
+                <TextView
+                    style="@style/NavigationMenuItemText"
+                    android:text="@string/settings" />
+                
+                <ImageView
+                    android:id="@+id/settingsArrow"
+                    style="@style/NavigationMenuItemArrow"
+                    tools:ignore="ContentDescription"/>
+            
+            </LinearLayout>
+    
+                <TextView
+                    android:id="@+id/listItemUsers"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/users" />
+        
+                <TextView
+                    android:id="@+id/listItemAllowedTransactions"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/allowed_transactions" />
+        
+                <TextView
+                    android:id="@+id/listItemTransactionSettings"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/transactions_settings" />
+        
+                <TextView
+                    android:id="@+id/listItemMerchantSettings"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/receiptSettingsLabel" />
+        
+                <TextView
+                    android:id="@+id/listItemDeviceSettings"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/device_settings" />
+
+                <TextView
+                    android:id="@+id/listItemUpdateSettings"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/update_settings" />
+            <LinearLayout
+                android:id="@+id/listItemAbout"
+                style="@style/NavigationMenuItem"
+                tools:ignore="UseCompoundDrawables" >
+                
+                <ImageView
+                    style="@style/NavigationMenuItemIcon"
+                    android:contentDescription="@string/about"
+                    android:src="@drawable/icon_about_menu_icon_normal" />
+                    
+                <TextView
+                    style="@style/NavigationMenuItemText"
+                    android:text="@string/about" />
+                
+                <ImageView
+                    android:id="@+id/aboutArrow"
+                    style="@style/NavigationMenuItemArrow"
+                    tools:ignore="ContentDescription"/>
+            
+            </LinearLayout>
+                
+                <TextView
+                    android:id="@+id/listItemAppInfo"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/app_info" />
+    
+                <TextView
+                    android:id="@+id/listItemSupport"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/support" />
+    
+                <TextView
+                    android:id="@+id/listItemWhoIsHeartland"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/who_is_heartland" />
+    
+                <TextView
+                    android:id="@+id/listItemHowCanWeHelp"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/how_can_we_help" />
+    
+                <TextView
+                    android:id="@+id/listItemMerchantBill"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/merchant_bill_of_rights" />
+    
+                <TextView
+                    android:id="@+id/listItemBecomeMerchant"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/become_heartland_merchant" />
+    
+                <TextView
+                    android:id="@+id/listItemBrowseHeartlandSite"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/browse_heartland_site" />
+    
+                <TextView
+                    android:id="@+id/listItemAppAdvisories"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/app_advisories" />
+    
+                <TextView
+                    android:id="@+id/listItemTermsConditions"
+                    style="@style/NavigationMenuSubitem"
+                    android:text="@string/legal" />
+    
+            <LinearLayout
+                android:id="@+id/listItemHelp"
+                style="@style/NavigationMenuItem"
+                tools:ignore="UseCompoundDrawables" >
+                
+                <ImageView
+                    style="@style/NavigationMenuItemIcon"
+                    android:contentDescription="@string/help"
+                    android:src="@drawable/icon_help_menu_icon_normal" />
+                    
+                <TextView
+                    style="@style/NavigationMenuItemText"
+                    android:text="@string/help" />
+            
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/listItemLogout"
+                style="@style/NavigationMenuItem"
+                tools:ignore="UseCompoundDrawables" >
+                
+                <ImageView
+                    style="@style/NavigationMenuItemIcon"
+                    android:contentDescription="@string/log_out"
+                    android:src="@drawable/icon_logout_menu_icon_normal" />
+                    
+                <TextView
+                    style="@style/NavigationMenuItemText"
+                    android:text="@string/log_out" />
+            
+            </LinearLayout>
+            
+        </LinearLayout>
+    
+    </ScrollView>
+
+</LinearLayout>

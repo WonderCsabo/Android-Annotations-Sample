@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hps.mobuyle.core"
+    android:versionCode="200"
+    android:versionName="5.0.1dev" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:maxSdkVersion="23"
+        android:targetSdkVersion="23" />
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="com.hps.mobuyle.core.HPS_PERMISSION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:name="com.hps.mobuyle.core.MPApplication_"
+        android:allowBackup="false"
+        android:icon="@drawable/icon_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.crashlytics.ApiKey"
+            android:value="be2b5e6715bbf427c42dcbcb5ee177c0b40e3867" />
+
+        <activity
+            android:name="com.hps.mobuyle.core.activities.SplashScreenActivity_"
+            android:label="@string/app_name"
+            android:exported="true"
+            android:clearTaskOnLaunch="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.CardTransactionsActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.TipAdjustActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.WelcomeActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.AllowedTransactionSettingsActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.TransactionSettingsActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.MerchantSettingsActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.DeviceSettingsActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <!--activity
+            android:name="com.hps.mobuyle.core.activities.SetupGatewayCredentialsActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity-->
+        <!--activity
+            android:name="com.hps.mobuyle.core.activities.VerifyGatewayCredentialsActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity-->
+        <activity
+            android:name="com.hps.mobuyle.core.activities.AboutActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.UpdateSettingsActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.UserManagementActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.SupportActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.TransactionDetailActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.BatchSummaryActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.ReportActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>        <activity
+            android:name="com.hps.mobuyle.core.activities.TipReportActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.WebViewFragmentActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.BatchStatusActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.BatchSettlementActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+        <activity
+            android:name="com.hps.mobuyle.core.activities.SubmitPendingActivity_"
+            android:label="@string/app_name"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </activity>
+
+        <receiver
+            android:name="com.hps.mobuyle.core.services.BootReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.hps.mobuyle.core.services.EmailAlarmReceiver" />
+        <receiver android:name="com.hps.mobuyle.core.services.AttachmentAlarmReceiver" />
+        <receiver android:name="com.hps.mobuyle.core.services.NewVersionAlarmReceiver" />
+        <receiver android:name="com.hps.mobuyle.core.services.SmsAlarmReceiver" />
+
+        <!--service
+            android:name="com.hps.mobuyle.core.POSGatewayService"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </service-->
+        <service
+            android:name="com.hps.mobuyle.core.services.NewVersionNotificationService"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </service>
+        <service
+            android:name="com.hps.mobuyle.core.services.DbSyncService"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </service>
+        <service
+            android:name="com.hps.mobuyle.core.services.AttachmentProcessingService"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </service>
+        <service
+            android:name="com.hps.mobuyle.core.services.QueuedEmailProcessingService_"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </service>
+        <service
+            android:name="com.hps.mobuyle.core.services.QueuedTransactionProcessingService_"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </service>
+        <service
+            android:name="com.hps.mobuyle.core.services.EmailProcessingService_"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </service>
+        <service
+            android:name="com.hps.mobuyle.core.services.SmsProcessingService_"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </service>
+        <service
+            android:name="com.hps.mobuyle.core.services.CommercialCardProcessingService"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </service>
+        <service
+            android:name="com.hps.mobuyle.core.services.TipAdjustmentProcessingService"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </service>
+        <service
+            android:name="com.hps.mobuyle.core.services.PorticoTransactionService"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </service>
+        <!--service
+            android:name="com.hps.mobuyle.core.btprinter.BlueToothServicesP25"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </service-->
+        <service
+            android:name="com.hps.mobuyle.core.services.SettingsDownloadService_"
+            android:exported="false"
+            android:permission="com.hps.mobuyle.core.HPS_PERMISSION" >
+        </service>
+    </application>
+
+</manifest>

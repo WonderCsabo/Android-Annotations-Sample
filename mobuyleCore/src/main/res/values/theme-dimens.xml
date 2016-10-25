@@ -1,0 +1,14 @@
+<resources>
+
+    <dimen name="default_text_size">19sp</dimen>
+    <!-- smaller screens use slightly smaller text when there's three buttons in order to let them all fit -->
+    <dimen name="default_text_size_for_three_buttons">17sp</dimen> 
+    <dimen name="default_text_size_for_input_dialog_message">20sp</dimen>
+    
+    <dimen name="default_spinner_text_size">23sp</dimen>
+    <dimen name="default_text_margin">5dip</dimen>
+    <dimen name="default_text_padding_horizontal">5dip</dimen>
+    <dimen name="default_text_padding_vertical">5dip</dimen>
+	<dimen name="button_min_width">200dp</dimen>
+	<dimen name="button_max_width">200dp</dimen>
+</resources>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleRestaurant/build/intermediates/res/merged/debug/drawable-sw600dp-v13/icon_chevron_up.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleRestaurant/build/intermediates/exploded-aar/Android-Annotations-Library-Simplified/mobuyleCore/unspecified/res/drawable-sw600dp-v13/icon_chevron_up.png"
+    },
+    {
+        "merged": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleRestaurant/build/intermediates/res/merged/debug/drawable-sw600dp-v13/icon_chevron_down.png",
+        "source": "/Users/ginger.mcmurray/Android-Studio-Port/Android-Annotations-Library-Simplified/mobuyleRestaurant/build/intermediates/exploded-aar/Android-Annotations-Library-Simplified/mobuyleCore/unspecified/res/drawable-sw600dp-v13/icon_chevron_down.png"
+    }
+]

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:paddingRight="5dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                android:layout_marginLeft="10dp" >
+
+                <TextView
+                    android:id="@+id/customerCodeText"
+                    style="@style/commercialCardLabelStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignBottom="@+id/customerCodeEditText"
+                    android:layout_toLeftOf="@+id/customerCodeEditText"
+                    android:gravity="center_vertical"
+                    android:paddingRight="5dip"
+                    android:text="@string/customerCode" />
+
+                <com.hps.mobuyle.core.widget.EnhancedEditText
+                    android:id="@+id/customerCodeEditText"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical"
+                    android:maxLength="16"
+                    android:singleLine="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" >
+
+                <TextView
+                    android:id="@+id/taxExemptText"
+                    style="@style/commercialCardLabelStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/taxExemptCheckBox"
+                    android:layout_toLeftOf="@+id/taxExemptCheckBox"
+                    android:gravity="center_vertical"
+                    android:paddingRight="5dip"
+                    android:text="@string/taxExempt" />
+
+                <CheckBox
+                    android:id="@+id/taxExemptCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp" >
+
+                <TextView
+                    android:id="@+id/taxText"
+                    style="@style/commercialCardLabelStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/taxEditText"
+                    android:layout_toLeftOf="@+id/taxEditText"
+                    android:gravity="center_vertical"
+                    android:paddingRight="5dip"
+                    android:text="@string/taxAmount" />
+
+                <com.hps.mobuyle.core.widget.PecuniaryEditText
+                    android:id="@+id/taxEditText"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:hint="@string/zeroDollars" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.hps.mobuyle.core.widget.ScrollingMarquee_
+        android:id="@+id/marquee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" />
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        style="@style/ButtonContainer"
+        android:layout_gravity="bottom"
+        android:layout_weight="0"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/submit"
+            style="@style/ButtonInContainer"
+            android:text="@string/submit" />
+    </LinearLayout>
+
+</LinearLayout>

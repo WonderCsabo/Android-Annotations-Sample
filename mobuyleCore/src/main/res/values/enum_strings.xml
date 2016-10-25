@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ============================ -->
+    <!-- TransactionType -->
+    <!-- ============================ -->
+    <string name="transactiontype_unknown">Unknown</string>
+    <string name="transactiontype_credit_sale">Credit Sale</string>
+    <string name="transactiontype_moto_sale">MOTO Sale</string>
+    <string name="transactiontype_refund">Refund</string>
+    <string name="transactiontype_void">Void</string>
+    <string name="transactiontype_voice_auth">Voice Auth</string>
+    <string name="transactiontype_auth_only">Auth Only</string>
+    <string name="transactiontype_card_verify">Card Verify</string>
+    <string name="transactiontype_hgm_redeem">Gift Redeem</string>
+    <string name="transactiontype_hgm_balance_inquiry">Gift Balance Inquiry</string>
+    <string name="transactiontype_hgm_load_value">Gift Load Value</string>
+    <string name="transactiontype_sv_balance_inquiry">GSB Balance Inquiry</string>
+    <string name="transactiontype_sv_load_value">GSB Load Value</string>
+    <string name="transactiontype_telephone_sale">Phone Sale</string>
+    <string name="transactiontype_abbrev_unknown">Unknown</string>
+    <string name="transactiontype_abbrev_credit_sale">Sale</string>
+    <string name="transactiontype_abbrev_moto_sale">MOTO Sale</string>
+    <string name="transactiontype_abbrev_refund">Refund</string>
+    <string name="transactiontype_abbrev_void">Void</string>
+    <string name="transactiontype_abbrev_voice_auth">Voice Auth</string>
+    <string name="transactiontype_abbrev_auth_only">Auth</string>
+    <string name="transactiontype_abbrev_card_verify">Verify</string>
+    <string name="transactiontype_abbrev_hgm_redeem">Redeem</string>
+    <string name="transactiontype_abbrev_hgm_balance_inquiry">Balance</string>
+    <string name="transactiontype_abbrev_hgm_load_value">Load Value</string>
+    <string name="transactiontype_abbrev_sv_balance_inquiry">Balance</string>
+    <string name="transactiontype_abbrev_sv_load_value">Load Value</string>
+    <string name="transactiontype_abbrev_telephone_sale">Sale</string>
+    <string name="transactiontype_desc_unknown">Unknown</string>
+    <string name="transactiontype_desc_credit_sale">Credit Sale</string>
+    <string name="transactiontype_desc_moto_sale">MOTO/e-Comm Sale</string>
+    <string name="transactiontype_desc_refund">Refund</string>
+    <string name="transactiontype_desc_void">Void</string>
+    <string name="transactiontype_desc_voice_auth">Voice Auth</string>
+    <string name="transactiontype_desc_auth_only">Credit Auth</string>
+    <string name="transactiontype_desc_card_verify">Card Verify</string>
+    <string name="transactiontype_desc_hgm_redeem">HGM Redeem</string>
+    <string name="transactiontype_desc_hgm_balance_inquiry">HGM Bal Inquiry</string>
+    <string name="transactiontype_desc_hgm_load_value">HGM Load Value</string>
+    <string name="transactiontype_desc_sv_balance_inquiry">SV Bal Inquiry</string>
+    <string name="transactiontype_desc_sv_load_value">SV Load Value</string>
+    <string name="transactiontype_desc_telephone_sale">Credit Sale</string>
+
+    <!-- ============================ -->
+    <!-- TransactionStatus -->
+    <!-- ============================ -->
+    <string name="transactionstatus_unknown">Unknown</string>
+    <string name="transactionstatus_posted_to_portico">Approved</string>
+    <string name="transactionstatus_voice_auth_pending">Approved</string>
+    <string name="transactionstatus_reversal_pending">Reversal Pending</string>
+    <string name="transactionstatus_saf_pending">S&amp;F Pending</string>
+    <string name="transactionstatus_declined_during_settlement">Declined During Settlement</string>
+    <string name="transactionstatus_voided">Voided</string>
+    <string name="transactionstatus_add_to_batch_pending">Approved</string>
+    <string name="transactionstatus_saf_add_to_batch_pending">S&amp;F Pending</string>
+    <string name="transactionstatus_voice_auth_add_to_batch_pending">Approved</string>
+    <string name="transactionstatus_chip_card_decline">Chip Card Decline</string>
+    <string name="transactionstatus_credit_offline_sale">Credit Offline Sale</string>
+
+    <!-- ============================ -->
+    <!-- PendingTxnType -->
+    <!-- ============================ -->
+    <string name="pendingtxntype_tip_pending">Sale With Pending Tip</string>
+    <string name="pendingtxntype_saf_pending">S&amp;F Pending Sale</string>
+    <string name="pendingtxntype_voice_auth">Voice Authorizations</string>
+    <string name="pendingtxntype_total">Total</string>
+
+    <!-- ============================ -->
+    <!-- CpcStatus -->
+    <!-- ============================ -->
+    <string name="cpcstatus_no_cpc_data">No CPC Data</string>
+    <string name="cpcstatus_cpc_data_entered">CPC Data Entered</string>
+    <string name="cpcstatus_cpc_data_uploaded">CPC Data Uploaded</string>
+
+    <!-- ============================ -->
+    <!-- CardType -->
+    <!-- ============================ -->
+    <string name="cardtype_unknown">Unknown</string>
+    <string name="cardtype_visa">Visa</string>
+    <string name="cardtype_mastercard">MasterCard</string>
+    <string name="cardtype_american_express">American Express</string>
+    <string name="cardtype_discover">Discover</string>
+    <string name="cardtype_stored_value">GSB Stored Value</string>
+    <string name="cardtype_gsb">GSB Stored Value</string>
+    <string name="cardtype_gift">HGM Gift</string>
+    <string name="cardtype_hgm">HGM Gift</string>
+    <string name="cardtype_abbrev_unknown">\?</string>
+    <string name="cardtype_abbrev_visa">Visa</string>
+    <string name="cardtype_abbrev_mastercard">MasterCard</string>
+    <string name="cardtype_abbrev_american_express">AmEx</string>
+    <string name="cardtype_abbrev_discover">Discover</string>
+    <string name="cardtype_abbrev_stored_value">GSB</string>
+    <string name="cardtype_abbrev_gsb">GSB</string>
+    <string name="cardtype_abbrev_gift">Gift</string>
+    <string name="cardtype_abbrev_hgm">Gift</string>
+
+    <!-- ============================ -->
+    <!-- ReaderType -->
+    <!-- ============================ -->
+    <string name="readertype_none">None</string>
+    <string name="readertype_idtech">UniMag</string>
+    <string name="readertype_anywhere">Rambler</string>
+    <string name="readertype_bluebamboo">P25 Bluetooth</string>
+    <string name="readertype_idtech_unimagpro">UniMag Pro</string>
+    <string name="readertype_idtech_unimag2">UniMag II</string>
+    <string name="readertype_icmp">iCMP</string>
+
+    <!-- ============================ -->
+    <!-- PrinterType -->
+    <!-- ============================ -->
+    <string name="printertype_none">None</string>
+    <string name="printertype_p25">P25</string>
+
+    <!-- ============================ -->
+    <!-- TippingMode -->
+    <!-- ============================ -->
+    <string name="tippingmode_tip_disabled">Tips Disabled</string>
+    <string name="tippingmode_tip_on_purchase">Tip On Sale</string>
+    <string name="tippingmode_tip_customer_entered">Customer Entered Tip</string>
+    <string name="tippingmode_tip_after_purchase">Tip After Sale</string>
+
+    <!-- ============================ -->
+    <!-- EntryMode -->
+    <!-- ============================ -->
+    <string name="entrymode_manual">Manual Entry</string>
+    <string name="entrymode_swipe">Card Swiped</string>
+    <string name="entrymode_emv_contact">Insert</string>
+    <string name="entrymode_msd_contactless">Tap</string>
+    <string name="entrymode_emv_contactless">Tap</string>
+
+    <!-- ============================ -->
+    <!-- EventType                    -->
+    <!-- ============================ -->
+    <string name="eventtype_login">Login</string>
+    <string name="eventtype_login_demo_mode">Demo Mode</string>
+    <string name="eventtype_login_admin">Admin</string>
+    <string name="eventtype_login_clerk">Non-Admin</string>
+    <string name="eventtype_batch_close">Batch Close</string>
+    <string name="eventtype_batch_pending">Submit Pending</string>
+    <string name="eventtype_batch_saf">Save Store And Forward Transaction</string>
+    <string name="eventtype_swipe">Swipe Card</string>
+    <string name="eventtype_insert">Insert</string>
+    <string name="eventtype_proximity">Proximity</string>
+    <string name="eventtype_email_merchant">Email Merchant</string>
+    <string name="eventtype_email_customer">Email Customer</string>
+    <string name="eventtype_take_photo">Take Photo</string>
+    <string name="eventtype_print_receipt">Print</string>
+    <string name="eventtype_menu_select">Menu</string>
+    <string name="eventtype_portico_message">Portico</string>
+    
+    <!-- ============================ -->
+    <!-- EventStatus                  -->
+    <!-- ============================ -->
+    <string name="eventstatus_success">Success</string>
+    <string name="eventstatus_failure">Failure</string>
+
+</resources>

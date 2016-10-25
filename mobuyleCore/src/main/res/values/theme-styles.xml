@@ -1,0 +1,92 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- This style applies to buttons that are floating inside of content -->
+    <style name="ButtonStyle" parent="android:style/Widget.Button">
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:layout_margin">@dimen/default_text_margin</item>
+        <item name="android:paddingTop">@dimen/default_text_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/default_text_padding_vertical</item>
+        <item name="android:paddingLeft">@dimen/default_text_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/default_text_padding_horizontal</item>
+        <item name="android:minWidth">@dimen/button_min_width</item>
+        <item name="android:maxWidth">@dimen/button_max_width</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:background">@drawable/button_bar_borderless_background</item>
+    </style>
+
+    <style name="InsetButtonStyle" parent="ButtonStyle">
+        <item name="android:background">@drawable/button_inset_background</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+
+    <style name="EditTextStyle" parent="android:style/Widget.EditText">
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:layout_margin">@dimen/default_text_margin</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+
+    <style name="TextViewStyle" parent="android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:layout_margin">@dimen/default_text_margin</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <style name="WindowTitleBackground">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="OutmostContainer">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="InnerContainer">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="WelcomeScreen">
+        
+    </style>
+
+    <style name="ButtonContainer">
+        <item name="android:background">@drawable/top_border</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/buttonContainerHeight</item>
+    </style>
+
+    <style name="ButtonInContainer">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/buttonContainerHeight</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/button_bar_text_color</item>
+    </style>
+    
+    <style name="ThreeButtonInContainer" parent="@style/ButtonInContainer">
+        <item name="android:textSize">@dimen/default_text_size_for_three_buttons</item>
+    </style>
+    
+    <style name="CheckboxInContainer" parent="android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/buttonContainerHeight</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/button_bar_text_color</item>
+        <item name="android:textSize">@dimen/default_text_size</item>
+    </style>
+
+    <style name="SpinnerItem">
+        <item name="android:textSize">@dimen/default_spinner_text_size</item>
+		<item name="android:gravity">right</item>
+    </style>
+
+    <style name="SpinnerDropDownItem">
+        <item name="android:textSize">@dimen/default_spinner_text_size</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+</resources>

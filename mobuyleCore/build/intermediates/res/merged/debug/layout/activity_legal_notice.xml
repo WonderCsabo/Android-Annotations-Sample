@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <WebView
+        android:id="@+id/legaltextView"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="10" />
+
+    <LinearLayout
+        android:id="@+id/checkBoxContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0"
+        android:gravity="center" >
+
+        <CheckBox
+            android:id="@+id/acceptTermsCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dip"
+            android:paddingTop="5dip"
+            android:text="I have read and understand the above Terms and Conditions." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonContainer"
+        style="@style/ButtonContainer"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/yesButton"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="Accept" />
+
+        <LinearLayout
+            android:layout_width="50dip"
+            android:layout_height="1dip" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/noButton"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+    </LinearLayout>
+
+</LinearLayout>

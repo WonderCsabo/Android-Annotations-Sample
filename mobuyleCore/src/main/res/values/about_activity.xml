@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appVersion">App Version</string>
+    <string name="merchantLabel">Merchant</string>
+    <string name="tidLabel">TID</string>
+    <string name="tnameLabel">Terminal Name</string>
+    <string name="osVersionLabel">OS Version</string>
+	<string name="osBuildNumberLabel">OS Build Number</string>
+	<string name="sqliteVersionLabel">SQLite Version</string>
+	<string name="manufacturerLabel">Manufacturer</string>
+	<string name="modelLabel">Model</string>
+	<string name="brandLabel">Brand</string>
+	<string name="deviceLabel">Device</string>
+	<string name="androidIdLabel">ID</string>
+	<string name="yes">YES</string>
+	<string name="no">NO</string>
+	<string name="transactionSettingsLabel">Transaction Settings</string>    
+</resources>

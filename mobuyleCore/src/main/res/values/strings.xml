@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+
+    <string name="app_name">HeartlandCore</string>
+    <string name="app_name_about">Heartland Mobile Payments</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_permission">access HPS applications</string>
+    <string name="desc_permission">Allows the application to access Heartland Payment Systems applications.</string>
+
+    <!-- =========================== -->
+    <!-- Slide-out Menu              -->
+    <!-- =========================== -->
+    <string name="card_transactions">Card Transactions</string>
+    <string name="mobuyle">Heartland</string>
+    <string name="other_transactions">Other Transactions</string>
+    <string name="voidText">Void</string>
+    <string name="adjust_tips">Adjust Tips</string>
+    <string name="batch">Batch</string>
+    <string name="reports">Reports</string>
+    <string name="batch_summary">Batch Summary</string>
+    <string name="transaction_detail">Transaction Detail</string>
+    <string name="gift_transaction_detail">Gift Transaction Detail</string>
+    <string name="giftTransactionDetailTitle">Gift Transaction</string>
+    <string name="batch_status">Batch Status</string>
+    <string name="tip_report">Tip Report</string>
+    <string name="settings">Settings</string>
+    <string name="users">Users</string>
+    <string name="allowed_transactions">Allowed Transactions</string>
+    <string name="transactions_settings">Transaction Settings</string>
+    <string name="receipt_settings_tracker_label">Merchant Settings</string>
+    <string name="device_settings">Card Readers &amp; Printers</string>
+    <string name="device_settings_tracker_label">Device Settings</string>
+    <string name="about">About</string>
+    <string name="app_info">Application Information</string>
+    <string name="support">Support</string>
+    <string name="how_can_we_help">How can HPS help?</string>
+    <string name="merchant_bill_of_rights">Merchant Bill of Rights</string>
+    <string name="become_heartland_merchant">Become a Merchant</string>
+    <string name="browse_heartland_site">Browse HPS Web Site</string>
+    <string name="app_advisories">Application Advisories</string>
+    <string name="legal">Legal</string>
+    <string name="terms_and_conditions">Legal</string>
+    <string name="log_out">Log Out</string>
+    <string name="dropdown_description">Expandable menu item</string>
+    <string name="drawerOpen">Show navigation menu</string>
+    <string name="drawerClose">Hide navigation menu</string>
+    <string name="acceptLegalTermsPrompt">I agree</string>
+
+    <!-- =========================== -->
+    <!-- Dialog strings              -->
+    <!-- =========================== -->
+    <string name="accept">Accept</string>
+    <string name="decline">Decline</string>
+    <string name="error">Error</string>
+    <string name="warning">Warning</string>
+    <string name="error_storage_unavailable">Storage is unavailable. Please reconnect it and try again.</string>
+    <string name="error_file_not_created">The file could not be created. Please check your storage and try again.</string>
+    <string name="batchSyncError">Batch Sync Error</string>
+    <string name="internalError">Internal error</string>
+    <string name="unknownError">An unknown error occurred. Please try again.</string>
+    <string name="invalidGatewayResponse">Invalid Gateway Response</string>
+    <string name="invalidCredentials">Invalid Credentials</string>
+    <string name="success">Success</string>
+    <string name="credentialsValidated">Credentials Validated</string>
+    <string name="noProdCredsInDevBuild">Production credentials cannot be used with a dev build.</string>
+    <string name="failedToSendLogs">Failed to send log files</string>
+    <string name="invalidUserId">Invalid User ID</string>
+    <string name="notEnoughSpaceForLogger">There is not enough space on the device to enable audit logging. To enable it please free up space on internal or external storage and restart this application.</string>
+
+    <string name="testModeWarning">You are taking a Test Drive. Live credit card transactions will NOT be processed. Any data entered will NOT be saved.</string>
+    <string name="locationPermissionRequestMessage">The device\'s location can be sent with each transaction in order to help fight fraud. If you\'d like to allow this, select Allow in the next dialog.</string>
+    <string name="writePermissionRequestMessage">Audit logs from this device can be stored in order to help fight fraud. If you\'d like to allow this, select Allow in the next dialog.</string>
+
+    <string name="avsMismatchTitle">AVS Mismatch</string>
+    <string name="avsMismatchPrompt"> This transaction has an AVS Mismatch.\n\nDo you want to Accept or Void this transaction?</string>
+
+    <string name="avsAndPartialAuthTitle">Warning</string>
+    <string name="avsAndPartialAuthPromptFormat">This transaction is partially approved for $%1$s. The balance due is $%2$s.\n\nThere is also an AVS Mismatch.\n\nDo you want to Accept or Void this transaction?</string>
+
+    <string name="balanceDue">Balance Due</string>
+    <string name="partialPaymentAuthorizationFormat">This transaction is partially approved for $%1$s. The balance due is $%2$s.\n\nDo you want to Accept or Void this transaction?</string>
+
+    <string name="duplicateTransactionTitle">Duplicate Transaction</string>
+    <string name="duplicateTransactionMessage">Same card number, transaction type, and amount as previous transaction.  Allow duplicate transaction?</string>
+    <string name="communicating">Communicating&#8230;</string>
+    <string name="communicatingPleaseWait">Communicating. Please wait&#8230;</string>
+    <string name="transactionDeclined">Transaction Declined</string>
+    <string name="responseErrorFormat">Response Error: %d</string>
+    <string name="communicationsError">Communication Error</string>
+    <string name="unknown_orca_error">An unknown server error occurred. Please try again.</string>
+    <string name="hostUnavailable">Host Unavailable</string>
+    <string name="safMessageFormat">%s\n\nDo you want to accept this transaction for later processing? Please refer to Help for more information.</string>
+    <string name="callForAuth">Call for Authorization</string>
+    <string name="callForAuthFormat">Call %s</string>
+    <string name="invalidReversalResponse">Invalid Reversal Response</string>
+    <string name="invalidChipDeclineResponse">Invalid Chip Decline Response</string>
+    <string name="invalidCreditOfflineSaleResponse">Invalid Offline Credit Sale Response</string>
+    <string name="tipEntry">Tip Entry</string>
+    <string name="totalWithTip">Total With Tip</string>
+    <string name="otherAmount">Other</string>
+    <string name="twentyPercent">20\%</string>
+    <string name="fifteenPercent">15\%</string>
+    <string name="tenPercent">10\%</string>
+
+    <string name="systemUpdateTitle">System Update</string>
+    <string name="systemUpdateMessage">Upgrading the system. Please do not close the app&#8230;</string>
+    <string name="systemUpdateErrorMessage">An error occurred while upgrading this application. Please contact the Heartland Support Center at 1-888-963-3600</string>
+
+    <string name="auditLogNotificationForDemoMode">Audit logs are not available in demo mode. In standard mode they store and retain up to %d months of information for events such as transactions, logins, etc.</string>
+    <string name="auditLogNotificationForClerk">You do not have access to audit log controls. Please contact your admin.</string>
+    <string name="auditLogsSaved">Audit logs saved</string>
+    <string name="auditLogsNotSaved">Files could not be exported. Please try again.</string>
+    <string name="couldNotWrite">Storage unavailable. Please check your device settings and try again</string>
+    <string name="auditLogLocationMessage">The files were save to: \n\n %s\n\nEmail now?</string>
+
+    <!-- =========================== -->
+    <!-- Voice auth phone #s         -->
+    <!-- =========================== -->
+    <string name="amexVoiceAuthNumber">1-888-963-3600</string>
+    <string name="discoverVoiceAuthNumber">1-888-963-3600</string>
+    <string name="gsbVoiceAuthNumber">1-800-399-3035</string>
+    <string name="visamcVoiceAuthNumber">1-800-990-2265</string>
+
+    <!-- =========================== -->
+    <!-- User management strings     -->
+    <!-- =========================== -->
+    <string name="undefined_role_name">&lt;role undefined&gt;</string>
+    <string name="demo_role_name">Demo</string>
+    <string name="clerk_role_name">Clerk</string>
+    <string name="admin_role_name">Manager</string>
+    <string name="login_out_of_bounds">Login Name must be %1$d to %2$d characters long.</string>
+    <string name="password_out_of_bounds">Password must be %1$d to %2$d characters long.</string>
+    <string name="admin_password_aditional_error_message">\nPassword must contain at least one number and at least one letter and no special characters.\nNew password cannot match last 4 passwords.</string>
+    <string name="resetAdminPassword">Reset Manager Password</string>
+    <string name="addNewUser">Add New User</string>
+    <string name="editUser">Edit User</string>
+    <string name="delete">Delete</string>
+    <string name="deleteUserConfirmation">User %s will be permanently deleted!</string>
+    <string name="areYouSure">Are you sure\?</string>
+    <string name="deleteUser">Delete User</string>
+    <string name="changePassword">Set Password</string>
+    <string name="cantEditAdmin">You can not edit the Manager user.</string>
+    <string name="cantDeleteLoggedInUser">You can not delete current user.</string>
+    <string name="addUser">Add User</string>
+    <string name="addUserButton">+</string>
+    <string name="userNameNotUnique">User name must be unique.</string>
+    <string name="okToLogOut">Are you sure you want to log out\?</string>
+
+    <!-- ======================= -->
+    <!-- General button labels   -->
+    <!-- ======================= -->
+    <string name="save">Save</string>
+    <string name="submit">Submit</string>
+    <string name="clear">Clear</string>
+    <string name="demo">Demo</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="retry">Retry</string>
+    <string name="continueLabel">Continue</string>
+    <string name="login_title">Welcome to Heartland</string>
+    <string name="register_now">Register Now</string>
+    <string name="test_drive">Take a Test Drive</string>
+    <string name="options">Options</string>
+    <string name="reset">Reset</string>
+    <string name="done">Done</string>
+    <string name="next">Next</string>
+    <string name="restartTransaction">Restart Transaction</string>
+
+    <!-- ============================ -->
+    <!-- Setup Dialog                 -->
+    <!-- ============================ -->
+    <string name="activation">Activation</string>
+    <string name="merchantID">Merchant ID</string>
+    <string name="activationCode">Activation Code</string>
+    <string name="enterMerchantId">Please enter Merchant ID</string>
+    <string name="enterActivationCode">Please enter Activation Code</string>
+    <string name="activationFailed">The Merchant ID and/or Activation Code are incorrect. Please try again.</string>
+    <string name="activationCodeNull">Your gateway credentials are invalid.</string>
+    <string name="settingsDownloadFailed">The settings could not be downloaded. Please try again.</string>
+    <string name="noteNoInfoCallHSC">Please call the Heartland Support Center at 1-888-963-3600 to register to use this application, or to reset your Activation Code.</string>
+
+    <!-- ============================ -->
+    <!-- Commonly-used field labels   -->
+    <!-- ============================ -->
+    <string name="licenseID">License ID</string>
+    <string name="siteID">Site ID</string>
+    <string name="deviceID">Device ID</string>
+    <string name="softwareUserID">Software User ID</string>
+    <string name="loginName">Login Name</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="realName">Real Name</string>
+    <string name="role">Role</string>
+    <string name="cardReader">Card Reader</string>
+    <string name="bluetoothPrinter">Bluetooth Printer</string>
+    <string name="noData">No Data</string>
+    <string name="user">User</string>
+    <string name="dateTime">Date/Time</string>
+    <string name="card">Card</string>
+    <string name="type">Type</string>
+    <string name="amount">Amount</string>
+
+    <!-- =========================== -->
+    <!-- One-off and misc. strings   -->
+    <!-- =========================== -->
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="demo_user_name">Demo User</string>
+    <string name="userName">Username:</string>
+    <string name="demoUser">Demo User</string>
+    <string name="yesLabel">Yes</string>
+    <string name="noLabel">No</string>
+    <string name="all">All</string>
+    <string name="adminInstructions">Assign yourself a Manager login to access all features of the application on this device.</string>
+    <string name="none">None</string>
+    <string name="idTech">UniMag</string>
+    <string name="anywhereCommerceReader">Rambler</string>
+    <string name="p25Reader">P25 Bluetooth</string>
+    <string name="clerkResetTitle">Request Password Reset</string>
+    <string name="clerkResetMessage">Please ask the Manager (owner) to log into this device and reset your password for you.</string>
+    <string name="adminPasswordResetTitle">Reset Admin Password</string>
+    <string name="adminPasswordResetMessage">You have selected the Admin user.  Resetting the Admin password requires you to enter all of your Merchant Credentials again. Only if they match their previous settings will you be allowed to set a new password.\n\nDo you want to reset the Admin password\?</string>
+    <string name="ingenicoSwipeTapOrInsert">SWIPE, TAP, OR INSERT</string>
+    <string name="ingenicoSwipe">PLEASE SWIPE CARD</string>
+    <string name="ingenicoInsert">PLEASE INSERT CARD</string>
+
+    <!-- ============================ -->
+    <!-- Titles of Views & app name   -->
+    <!-- ============================ -->
+    <string name="app_description">Heartland App for Retail Commerce</string>
+    <string name="loginuser_title">Please log in</string>
+    <string name="transactioncardpresentsale_title">Credit or Signature Debit Sale</string>
+    <string name="editsettings_title">Edit Settings</string>
+    <string name="loginDialogTitle">Login User</string>
+    <string name="LegalNoticeDialogTitle">Terms and Conditions</string>
+    <string name="ReleaseNotesDialogTitle">Release Notes</string>
+    <string name="merchantCredentialsSetupDialogTitle">Please enter your credentials</string>
+    <string name="merchantCredentialsVerificationDialogTitle">Please verify your credentials</string>
+    <string name="SetupAdminLoginDialogTitle">Create Manager Login</string>
+    <string name="SetupAdminLoginDialogHint">Assign yourself a Manager login to access all features of the application on this device.</string>
+    <string name="ResetAdminPasswordDialogTitle">Reset Manager Password</string>
+    <string name="ResetAdminPasswordDialogHint">Enter a new password for the Manager login</string>
+    <string name="ApplicationUseDialogTitle">Application Use Advisories</string>
+    <string name="passwordExpiredMessage">Your password has expired and must be changed.</string>
+    <string name="passwordExpiredTitle">Password Expired</string>
+    <string name="SetupDevicesDialogTitle">Configure Card Readers &amp; Printers</string>
+    <string name="user_management_title">Manage Users</string>
+    <string name="transactions">Transaction</string>
+    <string name="transaction_details_report">Transaction Detail</string>
+    <string name="transaction_details_void_report">Select a Transaction to Void</string>
+    <string name="transaction_details_gift_report">Gift Transaction</string>
+    <string name="how_can_we_help_title">How can we help your business?</string>
+    <string name="become_heartland_merchant_title">Become a HPS merchant</string>
+    <string name="application_advisories_title">Application Use Advisories</string>
+    <string name="signatureCapture">Signature Capture</string>
+    <string name="signatureCaptureError">There was an error processing your signature. Please try again.</string>
+    <string name="addAdjustTip">Add/Adjust Tip</string>
+    <string name="securityQuestionTitle">Security Question</string>
+    <string name="securityQuestionHint">Select a security question and provide an answer</string>
+    <string name="invalidSecurityQuestion">Incorrect Answer. Please try again.</string>
+    <string name="signaturecature_refund_message">I accept this refund amount according to the cardholder agreement.</string>
+
+    <!-- =========================== -->
+    <!-- Tip Adjustment strings      -->
+    <!-- =========================== -->
+    <string name="tranType">Tran Type</string>
+    <string name="tipAmount">Tip Amount</string>
+    <string name="cardNum">Card #</string>
+    <string name="totalamount">Total Amt</string>
+    <string name="noTip">&lt;no tip&gt;</string>
+    <string name="adjustTip">Adjust Tip</string>
+    <string name="addTip">Add Tip</string>
+    <string name="tipTooLarge">Tip amount is too large</string>
+    <string name="allTransactions">All Transactions</string>
+    <string name="unadjustedTransactions">Unadjusted Transactions</string>
+    <string name="tipAdjustments">Tip Adjustments</string>
+
+    <!-- =========================== -->
+    <!-- Settings strings            -->
+    <!-- =========================== -->
+    <string name="empty">&lt;empty&gt;</string>
+    <string name="maxTransactionAmountLabel">Max Transaction Amount</string>
+    <string name="amexQpsLimitLabel">Amex QPS Limit</string>
+    <string name="discoverQpsLimitLabel">Discover QPS Limit</string>
+    <string name="masterCardQpsLimitLabel">MasterCard QPS Limit</string>
+    <string name="visaQpsLimitLabel">Visa QPS Limit</string>
+    <string name="gsbQpsLimitLabel">GSB QPS Limit</string>
+    <string name="promptForTaxLabel">Prompt for Tax</string>
+    <string name="taxRateLabel">Tax Rate</string>
+    <string name="tippingModeLabel">Tip Support</string>
+    <string name="tipAssist1Label">Tip Assist Percentage 1</string>
+    <string name="tipAssist2Label">Tip Assist Percentage 2</string>
+    <string name="tipAssist3Label">Tip Assist Percentage 3</string>
+    <string name="safSettingsLabel">Store and Forward Settings</string>
+    <string name="enableSafLabel">Enable SAF?</string>
+    <string name="maxSAFAmountLabel">Max SAF Transaction Amount</string>
+    <string name="maxSAFTotalLabel">Max Outstanding SAF Total</string>
+    <string name="safAmountFailure">The Max SAF Transaction Amount must be between \$1 and \$2,500.</string>
+    <string name="safTotalFailure">The Max Outstanding SAF Total must be between \$1 and \$5,000.</string>
+    <string name="promptForSecurityCodeLabel">Prompt for Security Code</string>
+    <string name="manualEntryOnSaleLabel">Allow Manual Entry on Sale</string>
+    <string name="manualEntryOnRefundLabel">Allow Manual Entry on Refund</string>
+    <string name="enableAvsLabel">Enable AVS</string>
+    <string name="promptForInvoiceNumberLabel">Prompt for Invoice Number</string>
+    <string name="transactionTimeoutLabel">Transaction Response Timeout</string>
+    <string name="supportCommercialCardsLabel">Support Commercial Cards</string>
+    <string name="transactionTimeoutFailure">Transaction Response Timeout must be between 15 and 60 seconds.</string>
+    <string name="validationDialogLabel">Validation</string>
+    <string name="maxTransactionAmountFailure">Maximum Transaction Amount must be between $1 and $99,999.</string>
+    <string name="salesTaxFailure" formatted="false">Maximum Tax Rate must be between 0% and 99.99%.</string>
+    <string name="merchantSettingsLabel">Merchant Information</string>
+    <string name="receiptSettingsLabel">Receipt Settings</string>
+    <string name="storeAndForwardSettingsLabel">Store and Forward (SAF) Settings</string>
+    <string name="nameLabel">Name</string>
+    <string name="addressLabel">Address</string>
+    <string name="address2Label">Address 2</string>
+    <string name="cityLabel">City</string>
+    <string name="stateLabel">State</string>
+    <string name="zipLabel">Zip</string>
+    <string name="phoneLabel">Phone</string>
+    <string name="emailLabel">Email</string>
+    <string name="emailReceiptLabel">Email Receipt to Merchant</string>
+    <string name="smsReceiptLabel">SMS Receipts</string>
+    <string name="verifyNoReceiptLabel">Prompt to Send Receipt to Customer</string>
+    <string name="receiptFooterLabel">Receipt Footer</string>
+    <string name="deviceSettingsLabel">Card Readers &amp; Printers</string>
+    <string name="cardReaderLabel">Card Reader</string>
+    <string name="bluetoothPrinterLabel">Bluetooth Printer</string>
+    <string name="icmpReaderLabel">iCMP Reader</string>
+    <string name="inactivityTimeoutLabel">Login Timeout (Minutes)</string>
+    <string name="inactivityTimeoutFailure">Login Timeout must be between 5 and 20 minutes.</string>
+    <string name="recordPermissionRequestMessage">The device\'s microphone is used to communicate with the selected card reader. If you\'d like to allow this, select Allow in the next dialog.</string>
+    <string name="allowedCardSettingsLabel">Allowed Card Types</string>
+    <string name="visaLabel">Visa</string>
+    <string name="mastercardLabel">MasterCard</string>
+    <string name="discoverLabel">Discover</string>
+    <string name="americanExpressLabel">American Express</string>
+    <string name="gsbStoredValueLabel">GSB/Stored Value</string>
+    <string name="hgmLabel">Heartland Gift Card</string>
+    <string name="allowedTransactionTypesLabel">Allowed Transaction Types</string>
+    <string name="creditCardSaleLabel">Credit Card Sale</string>
+    <string name="telephoneSaleSettingLabel">Phone Sale</string>
+    <string name="motoSaleSettingLabel">Moto or eCommerce Sale</string>
+    <string name="refundLabel">Refund</string>
+    <string name="voiceAuthLabel">Voice Auth</string>
+    <string name="cardVerifyLabel">Card Verify</string>
+    <string name="gsbLoadValueLabel">GSB Load Value</string>
+    <string name="hgmLoadValueLabel">Gift Load Value</string>
+    <string name="loadValueLabel">Load Value</string>
+    <string name="safDialogTitle">S&amp;F Agreement</string>
+
+    <!-- ============================= -->
+    <!-- Transaction-related strings   -->
+    <!-- ============================= -->
+    <string name="cardNumber">Card Number</string>
+    <string name="expiration">Exp. Date</string>
+    <string name="securityCode">Security Code</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="tax">Tax</string>
+    <string name="tip">Tip</string>
+    <string name="saleAmount">Sale Amount</string>
+    <string name="totalAmount">Total Amount</string>
+    <string name="total">Total</string>
+    <string name="refundAmount">Refund Amount</string>
+    <string name="availableBalance">Available Balance</string>
+    <string name="availBalance">Avail Balance</string>
+    <string name="cardPresent">Card Present</string>
+    <string name="ecom">e-Commerce</string>
+    <string name="cardholder">Name</string>
+    <string name="zipCode">Zip Code</string>
+    <string name="authCode">Auth Code</string>
+    <string name="authorizationCode">Authorization Code</string>
+    <string name="transType">Transaction Type</string>
+    <string name="status">Status</string>
+    <string name="transactionId">Transaction ID</string>
+    <string name="tranId">Transaction ID</string>
+    <string name="login">Login</string>
+    <string name="logIn">Log In</string>
+    <string name="streetAddress">Address</string>
+    <string name="invoiceNumber">Invoice #</string>
+    <string name="creditSaleLabel">Credit Sale</string>
+    <string name="motoSaleLabel">MOTO Sale</string>
+    <string name="motoSaleReceiptLabel">MOTO/e-Comm Sale</string>
+    <string name="motoSettingSaleLabel">MOTO or eCommerce Sale</string>
+    <string name="telephoneSaleLabel">Phone Sale</string>
+    <string name="balanceInquiryLabel">Balance Inquiry</string>
+    <string name="gsbBalanceLabel">GSB Balance</string>
+    <string name="hgmBalanceLabel">Gift Balance</string>
+    <string name="hgmRedeemLabel">Gift Redeem</string>
+    <string name="redeemLabel">Redeem</string>
+    <string name="tax_amount">Tax Amount</string>
+    <string name="override">Override</string>
+    <string name="zeroDollars">$0.00</string>
+    <string name="widgetLabel">widget label</string>
+    <string name="swipeCard">Swipe Card</string>
+    <string name="mmyyFormat">MM/YY</string>
+    <string name="transactionTypeMustBeSelected">Transaction type must be selected.</string>
+    <string name="invalidSecurityCode">Invalid Security Code</string>
+    <string name="invalidStreetAddress">Invalid Street Address</string>
+    <string name="invalidZipCode">Invalid Zip Code</string>
+    <string name="invalidAuthCode">Invalid Authorization Code</string>
+    <string name="amountIsZero">Amount is zero</string>
+    <string name="amountExceedsMax">Amount exceeds %s</string>
+    <string name="invalidCardNumber">Invalid Card Number</string>
+    <string name="cardTypeNotAccepted">Card Type Not Accepted</string>
+    <string name="invalidExpirationDate">Invalid Expiration Date</string>
+    <string name="manualEntryNotAllowed">Card number entered manually, change transaction type or swipe card to proceed.</string>
+    <string name="select_test_card">Select test card</string>
+    <string name="signatureAgreement">I agree to pay this amount according to the cardholder agreement.</string>
+    <string name="totalAmountFormat">Total Amount %1s</string>
+    <string name="reminder">Reminder</string>
+    <string name="settleOldBatchPrompt">The open batch contains transactions that are over 20 hours old. The settle batch function needs to be run for settlement to occur.\n\nSettle Batch Now?</string>
+
+    <!-- ============================ -->
+    <!-- Transaction Detail Screen    -->
+    <!-- ============================ -->
+    <string name="transDetails">Transaction Details</string>
+    <string name="pendingTrans">Pending Transactions</string>
+    <string name="currentBatch">Current Batch</string>
+    <string name="batchX">Batch %d</string>
+    <string name="emailReport">Email Report</string>
+    <string name="sales">Sales</string>
+    <string name="cardType">Card Type</string>
+    <string name="count">Count</string>
+    <string name="reportNameSearch">Heartland_Transaction_Detail_Report</string>
+    <string name="reportNameSaf">Heartland_Store_And_Forward_Report</string>
+    <string name="reportNameGift">Heartland Gift Report</string>
+    <string name="currentBatchTDRFileName" formatted="false">_Current_Batch_%s.html</string>
+    <string name="settledBatchTDRFileName" formatted="false">_Batch_%d_%s.html</string>
+    <string name="allBatchesTDRFileName" formatted="false">_All_Batches_%s.html</string>
+    <string name="reportNameSubjectSearch">Heartland Transaction Detail Report</string>
+    <string name="reportNameSubjectSaf">Heartland Store And Forward Report</string>
+    <string name="reportNameSubjectGift">Heartland Gift Transaction Detail Report</string>
+    <string name="currentBatchTDREmailSubject" formatted="false">for Current Batch %s</string>
+    <string name="settledBatchTDREmailSubject" formatted="false">for Batch %d %s</string>
+    <string name="allBatchesTDREmailSubject" formatted="false">for All Batches %s</string>
+    <string name="safReport">Store and Forward Report</string>
+    <string name="transactionTypeSaleLabel">Sale</string>
+    <string name="motoTypeReportLabel">MOTO</string>
+    <string name="hgmLoadReportLabel">Load</string>
+    <string name="confirmVoid">Confirm Void</string>
+    <string name="voidTransactionConfirmationMessage">Are you sure you want to void this transaction?</string>
+    <string name="invalidTransaction">Invalid transaction</string>
+    <string name="unableToVoidTitle">Unable To Void Transaction</string>
+    <string name="unableToVoidMessage">This transaction has already been settled and cannot be voided. Please resync the current open batch with Portico.</string>
+
+    <string-array name="batchSelectionArray">
+        <item>All</item>
+        <item>Pending Transactions</item>
+        <item>Current Batch</item>
+    </string-array>
+    <string name="settledBatchDropdownLabel" formatted="false">Settled: %s</string>
+
+    <!-- ============================ -->
+    <!-- Batch Summary Screen Labels  -->
+    <!-- ============================ -->
+    <string name="currentBatchLabel" formatted="false">Batch: Current Batch</string>
+    <string name="currentBatchEmailSubject" formatted="false">Heartland Batch Summary Report for Current Batch %s</string>
+    <string name="currentBatchFileName" formatted="false">Batch_Summary_Report_Current_Batch_%s.html</string>
+    <string name="settledBatchLabel" formatted="false">Batch: %d - Settled %s</string>
+    <string name="batchLabelFormat" formatted="false">Batch: %d</string>
+    <string name="settledBatchEmailSubject" formatted="false">"Heartland Batch Summary Report for Batch %d %s"</string>
+    <string name="settledBatchFileName" formatted="false">Batch_Summary_Report_Batch_%d_%s.html</string>
+    <string name="refunds">Refunds</string>
+    <string name="miscellaneous">Miscellaneous</string>
+    <string name="totalTaxAmt">Total Tax Amount:</string>
+    <string name="totalVoidCnt">Total Void Count:</string>
+    <string name="totalDeclineCnt">Total Decline Count:</string>
+    <string name="declinedDuringSettlement">Declined during settlement</string>
+    <string name="loginLabel">Login: </string>
+
+    <string name="sdUnavailableTitle">SD card unavailable</string>
+    <string name="sdUnavailableEmailMessage">No SD card installed, unable to send email.</string>
+    <string name="sendEmail">Send email&#8230;</string>
+    <string name="sendEmailButton">Send Email</string>
+    <string name="reportEmailBody">Attached is a copy of the report.</string>
+    <string name="emailErrorRetry">The email could not be sent. Would you like to try again?</string>
+
+    <!-- ============================ -->
+    <!--   Tip Report Screen Labels   -->
+    <!-- ============================ -->
+    <string name="userHasUnadjustedTips">This user has unadjusted tip transactions.</string>
+    <string name="tipTotal">Tip Total</string>
+    <string name="batchTotals">Batch Totals</string>
+    <string name="currentBatchTRLabel" formatted="false">Batch: Pending and Current Batch</string>
+    <string name="currentBatchTREmailSubject" formatted="false">Heartland Tip Report for Current Batch %s</string>
+    <string name="currentBatchTRFileName" formatted="false">Tip_Report_Current_Batch_%s.html</string>
+    <string name="settledBatchTREmailSubject" formatted="false">Heartland Tip Report for Batch %d %s</string>
+    <string name="settledBatchTRFileName" formatted="false">Tip_Report_Batch_%d_%s.html</string>
+
+    <!-- ============================== -->
+    <!-- Batch Settlement Screen Labels -->
+    <!-- ============================== -->
+    <string name="batchSettlement">Batch Settlement</string>
+    <string name="submitPending">Submit Pending</string>
+    <string name="settleBatch">Settle Batch</string>
+    <string name="lastSettlementAttempt">Last Settlement Attempt</string>
+    <string name="lastSettlementError">Last Settlement Error</string>
+    <string name="settled">Settled</string>
+    <string name="settleBatchDialogTitle">Settle Batch?</string>
+    <string name="settleBatchDialogMsg">Are you sure you want to settle the batch?</string>
+    <string name="submitPendingDialogTitle">Submit Pending?</string>
+    <string name="submitPendingDialogMsg">Are you sure you want to submit pending transactions?</string>
+    <string name="settlementProgress">SETTLEMENT PROGRESS:</string>
+    <string name="sendingInProgress">SENDING IN PROGRESS:</string>
+    <string name="safTxnsDeclined">Store-and-Forward transaction(s) were declined.</string>
+    <string name="unadjustedTipsMessage">There are unadjusted tip transaction(s) present.\n\nWould you like to adjust them before settlement?</string>
+    <string name="sendingVoiceAuths">Sending Voice Authorized transactions&#8230;</string>
+    <string name="sendingReversals">Sending Reversals&#8230;</string>
+    <string name="sendingChipDeclines">Sending Chip Declines&#8230;</string>
+    <string name="sendingCreditOfflineSales">Sending Offline Credit Sales&#8230;</string>
+    <string name="sendingSAFs">Sending Store-and-Forward transactions&#8230;</string>
+    <string name="sendingTips">Sending tip transactions&#8230;</string>
+    <string name="closingOnGateway">Closing batch on Gateway&#8230;</string>
+    <string name="sendingCompleted">Sending Completed</string>
+    <string name="noneParens">(none)</string>
+    <string name="doneParens">(done)</string>
+    <string name="nothingToSettle">(nothing to settle)</string>
+    <string name="pendingCount" formatted="false">(%d/%d pending)</string>
+    <string name="txnCount" formatted="false">(%d/%d)</string>
+    <string name="checkImageDescription">Success checkbox</string>
+    <string name="commFailure">Communication Failure 500</string>
+    <string name="gatewayDeclinedBatchClose">Gateway Declined the Batch Close Request</string>
+    <string name="safWereDeclined"> Store-and-Forward transaction(s) were declined.</string>
+    <string name="sentSuccessfully">Sent Successfully</string>
+    <string name="viewReport">View Report</string>
+
+    <!-- ============================ -->
+    <!-- Security Question            -->
+    <!-- ============================ -->
+    <string name="question">Question:</string>
+    <string name="answer">Answer:</string>
+    <string name="questionPrompt">Please Select a Question</string>
+    <string name="answer_out_of_bounds">Answer must be %1$d to %2$d characters long.</string>
+    <string name="question_error_message">Please select a security question</string>
+
+    <!-- Do not change the names as these are mapped to the SecurityQuestion enum -->
+    <string name="no_question_selected">Please Select a Question</string>
+    <string name="first_car_model">Your first car model?</string>
+    <string name="first_job_title">Your first job title?</string>
+    <string name="favorite_pet_name">Your favorite pet\'s name?</string>
+    <string name="high_school_mascot">Your high school mascot?</string>
+    <string name="favorite_color">Your favorite color?</string>
+
+    <!-- ============================ -->
+    <!-- fragment_login_user labels   -->
+    <!-- ============================ -->
+    <string name="userNamePrompt">Username:</string>
+    <string name="passwordPrompt">Password:</string>
+
+    <!-- =========================== -->
+    <!-- POS Gateway URL's           -->
+    <!-- =========================== -->
+    <string name="certURL">https://cert.api2.heartlandportico.com/Hps.Exchange.PosGateway/PosGatewayService.asmx</string>
+    <string name="productionURL">https://api2.heartlandportico.com/Hps.Exchange.PosGateway/PosGatewayService.asmx</string>
+
+    <!-- ============================ -->
+    <!-- Developer IDs                -->
+    <!-- ============================ -->
+    <string name="restaurantDeveloperID">002914</string>
+    <string name="retailDeveloperID">002914</string>
+
+    <!--      versionNbr           -->
+    <!-- ============================ -->
+    <string name="versionNbr">2431</string>
+
+    <!-- =========================== -->
+    <!-- Comm error messages         -->
+    <!-- =========================== -->
+    <string name="gatewayErrorType">Connection Error</string>
+    <string name="gatewayErrorMsg">Unable to connect to the gateway, please check your internet connection and try again. If problem persists please call support at (888-963-3600).</string>
+    <string name="internetOffline">The internet appears to be offline.</string>
+    <string name="InvalidTaxRate">Invalid Gateway URL</string>
+    <string name="validationError">Validation Error</string>
+    <string name="exceedsAvailableBalance">Exceeds available balance</string>
+
+    <!-- =========================== -->
+    <!-- Gateway Credential Strings  -->
+    <!-- =========================== -->
+    <string name="invalidPassword">Invalid Password</string>
+    <string name="invalidGatewayPassword">New password must be between 1 and 20 characters.</string>
+    <string name="invalidLicenseId">Invalid License ID</string>
+    <string name="invalidSiteId">Invalid Site ID</string>
+    <string name="invalidDeviceId">Invalid Device ID</string>
+    <string name="invalidSoftwareUserId">Invalid Software User ID</string>
+    <string name="editCredentials">Edit Merchant Credentials</string>
+    <string name="verifyCredentialsFailureTitle">Manager Password Reset Denied</string>
+    <string name="verifyCredentialsFailureMessage">The entered Merchant Credentials do not match those already saved.</string>
+    <string name="gatewayPassword">Gateway Password</string>
+    <string name="invalidGatewayCredentials">Verify your gateway settings are correct.</string>
+    <string name="authenticationError">Authentication Error</string>
+
+
+    <!-- =========================== -->
+    <!-- Gateway Credential Strings  -->
+    <!-- =========================== -->
+    <string name="passwordsDoNotMatch">Passwords do not match</string>
+
+    <!-- =========================== -->
+    <!-- Support Strings             -->
+    <!-- =========================== -->
+    <string name="mobuyle_support">Support</string>
+    <string name="enable_logging">Enable Logging</string>
+    <string name="enable_audit_logging">Enable Audit Logging</string>
+    <string name="send_log_files">Send log files to Heartland Service Center</string>
+    <string name="send_logs">Send Logs</string>
+    <string name="save_audit_log_files">Save audit log files.</string>
+    <string name="save_audit_logs">Save Logs</string>
+    <string name="unknown">Unknown</string>
+    <string name="call_service_center">Please call the Heartland Service Center at 888-963-3600 if you have any questions.</string>
+    <string name="defaultMerchantName">[Merchant Name]</string>
+    <string name="devVersion">7.1.dev</string>
+    <string name="sendToTitle">Send To</string>
+    <string name="sendToMessage">Enter email address. Use semicolon delimited list for multiple email addresses.</string>
+
+    <!-- =========================== -->
+    <!-- Update Settings Strings     -->
+    <!-- =========================== -->
+    <string name="update_settings">Update Settings</string>
+    <string name="updateNow">Update Now</string>
+    <string name="statusLabel">Status</string>
+    <string name="lastUpdated">Last Updated</string>
+    <string name="neverUpdated">Never Updated</string>
+    <string name="callToUpdateSettings">Please call the Heartland Service Center at &lt;br /&gt;&lt;a href="tel:1-888-963-3600"&gt;1-888-963-3600&lt;/a&gt; to change any of these settings.</string>
+    <string name="updatingSettings">Updating Settings&#8230;</string>
+    <string name="giftLabel">Heartland Gift Card</string>
+
+    <!-- =========================== -->
+    <!-- Help Strings                -->
+    <!-- =========================== -->
+    <string name="who_is_heartland">Who is HPS?</string>
+    <string name="help">Help</string>
+
+    <!-- =========================== -->
+    <!-- Content descriptions        -->
+    <!-- =========================== -->
+    <string name="up">up</string>
+    <string name="down">down</string>
+
+    <!-- =========================== -->
+    <!-- CVV Mismatch                -->
+    <!-- =========================== -->
+    <string name="cvvMismatchMsg">SECURITY CODE DECLINE</string>
+
+    <!-- =========================== -->
+    <!-- Receipt Strings             -->
+    <!-- =========================== -->
+    <string name="receiptLabel">Receipt</string>
+    <string name="note">Note</string>
+    <string name="photo">Photo</string>
+    <string name="finish">Finish</string>
+    <string name="print">Print</string>
+    <string name="email">Email</string>
+    <string name="sms">SMS</string>
+    <string name="pending">Pending</string>
+    <string name="unableToProcessTransaction">Unable to process attachment</string>
+    <string name="sdUnavailablePrintMessage">No SD card installed, unable to print receipt.</string>
+    <string name="emailReceiptTitle">Email Receipt</string>
+    <string name="emailRecieptPrompt">Enter customer email address. Use semicolon delimited list for multiple email addresses.</string>
+    <string name="emailLogsTitle">Email Audit Logs</string>
+    <string name="emailLogsPrompt">Enter recipient email address. Use semicolon delimited list for multiple email addresses.</string>
+    <string name="smsReceiptTitle">Text Receipt</string>
+    <string name="smsReceiptPrompt">Enter customer phone number.</string>
+    <string name="reprintReceipt">Reprint Receipt</string>
+    <string name="transactionResult">Transaction Result</string>
+    <string name="authorizationResult">Authorization Result</string>
+    <string name="transactionNotes">Transaction Notes</string>
+    <string name="invalidEmailAddress">Invalid Email Address</string>
+    <string name="invalidPhoneNumber">Invalid Phone Number</string>
+    <string name="emailSent">Email sent</string>
+    <string name="smsSent">SMS sent</string>
+    <string name="printerError">Printer Error</string>
+    <string name="closingPrinter">Closing printer</string>
+    <string name="printing">Printing</string>
+    <string name="connectingToPrinter">Connecting to printer</string>
+    <string name="buildingReceipt">Building receipt</string>
+    <string name="noPrinterErrorTitle">No Printer</string>
+    <string name="noPrinterErrorMessage">No printer found, unable to print receipt</string>
+    <string name="cameraStoragePermissionRequestMessage">Access to the device\'s storage is required to send the photo with the transaction. If you\'d like to allow this, select Allow in the next dialog.</string>
+    <string name="transactionCancelled">Transaction cancelled</string>
+
+    <!-- =========================== -->
+    <!-- Card Reader Strings         -->
+    <!-- =========================== -->
+    <string name="cardReaderErrorTitle">Card Reader</string>
+    <string name="swipe_data_error">Unable to read card data.</string>
+    <string name="bad_card_error">Bad card please swipe.</string>
+    <string name="unrecognized_encryption">Invalid iCMP security configuration. Please call the Heartland Service Center at 1-888-963-3600.</string>
+    <string name="unrecognized_rba_version">Invalid iCMP reader configuration. Select YES to update &#40;approx. 10 min&#41; the reader now. \nOr, call the Heartland Service Center at 1-888-963-3600."</string>
+    <string name="rba_version_null">Invalid iCMP RBA configuration. Please call the Heartland Service Center at 1-888-963-3600."</string>
+    <string name="unrecognized_transaction_type">Unrecognized transaction type.</string>
+    <string name="could_not_install_pda">The reader requires configuration (missing or incorrect PDL). Please contact the Heartland Service Center at 1-888-963-3600.</string>
+    <string name="new_pdl_installed">The reader\'s configuration has changed. Please restart it now.</string>
+    <string name="no_error">No error</string>
+    <string name="card_blocked">EMV card blocked.</string>
+    <string name="card_declined">EMV transaction declined.</string>
+    <string name="emv_card_swiped">EMV card swiped, please insert.</string>
+    <string name="card_type_mismatch">The card is not valid for the transaction type.</string>
+    <string name="amex_swiped_card_verify">This card type does not support swiped card verify transactions. Please enter the card information manually.</string>
+    <string name="printerRequiredForP25Reader">A printer must be selected when using a P25 Reader.</string>
+    <string name="readerRequiredForIcmp">A reader must be selected when using an iCMP Reader.</string>
+    <string name="reader_communication_failed">Connection with the reader failed. Please try again.</string>
+    <string name="rbainstallation">Reader Update Completed</string>
+    <string name="restartReader">Please restart the reader manually.</string>
+    <string name="rbainstallation_failed">Reader Update Failed</string>
+    <string name="rbainstallation_failed_msg">An error occurred . Please try again.</string>
+    <string name="reader_plugin">Connect the iCMP reader to a power source. The iCMP reader must remain powered until the procedure is complete.</string>
+    <string name="low_battery">Reader Battery Low, Please Charge.</string>
+
+    <!-- =========================== -->
+    <!-- Commercial Card Strings     -->
+    <!-- =========================== -->
+    <string name="commercialCard">Commercial card</string>
+    <string name="taxExempt">Tax exempt transaction?</string>
+    <string name="optionalTaxAmount">You may enter an optional tax amount.</string>
+    <string name="taxAmount">Tax Amount</string>
+    <string name="optionalCustomerCode">You may enter an optional customer code.</string>
+    <string name="customerCode">Customer Code</string>
+    <string name="taxAmountTooLarge">Tax Amount Too Large</string>
+    <string name="tryCpcAgain">%s\n\nDo you want to try again? If you answer No the transaction will be completed without sending the CPC information.</string>
+    <string name="unableToSendCpc">Unable to send commercial card information</string>
+
+    <!-- =========================== -->
+    <!-- Transction Detail Strings   -->
+    <!-- =========================== -->
+    <string name="transTypeDetailLabel">Transaction Type:</string>
+    <string name="statusDetailLabel">Status:</string>
+    <string name="transactionIdDetailLabel">Transaction ID:</string>
+    <string name="dateTimeDetailLabel">Date/Time:</string>
+    <string name="authorizationCodeDetailLabel">Authorization Code:</string>
+    <string name="apnLabel">APN:</string>
+    <string name="aidLabel">AID:</string>
+    <string name="tcLabel">TC:</string>
+    <string name="cvmLabel">CVM:</string>
+    <string name="loginDetailLabel">Login:</string>
+    <string name="invoiceNumberDetailLabel">Invoice #:</string>
+    <string name="subtotalDetailLabel">Subtotal:</string>
+    <string name="taxDetailLabel">Tax:</string>
+    <string name="tipDetailLabel">Tip:</string>
+    <string name="totalDetailLabel">Total:</string>
+    <string name="availableBalanceDetailLabel">Available Balance:</string>
+    <string name="title_activity_main">MainActivity</string>
+
+
+</resources>

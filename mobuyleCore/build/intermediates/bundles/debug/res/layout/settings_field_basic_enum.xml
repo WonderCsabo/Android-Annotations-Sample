@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/setting_field_horizontal_margin" >
+
+    <TextView
+        android:id="@+id/labelView"
+        style="@style/settingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:drawSelectorOnTop="true"
+        android:fadingEdge="horizontal"
+        android:fadingEdgeLength="100dp"
+        android:gravity="right" />
+
+</RelativeLayout>

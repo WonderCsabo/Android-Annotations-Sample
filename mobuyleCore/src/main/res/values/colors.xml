@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <color name="white">#ffffff</color>
+    <color name="blue">#0066ff</color>
+    <color name="light_gray">#dcdcdc</color>
+    <color name="black">#000000</color>
+    <color name="default_text_color">@color/black</color>
+    <color name="dark_menu_top">#000000</color>
+    <color name="dark_menu_bottom">#191918</color>
+    <color name="menu_text">#949597</color>
+    <color name="hps_red_1">#C60C46</color>
+    <color name="transparent">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="logo_red">#CE1025</color>
+    <color name="green">#00FF00</color>
+    <color name="dark_gray">#333333</color>
+    <color name="medium_gray">#D1D0CE</color>
+    <color name="warning_red">#FFFF99</color>
+    <color name="button_bar_border_color">@color/light_gray</color>
+    <color name="button_bar_background_color">@color/white</color>
+    <color name="button_bar_background_pressed_color">@color/blue</color>
+
+    <!-- This color is also used in css files as the alternating table row color. If it is changed here it needs to be changed elsewhere too. -->
+    <color name="list_color_dark">#bcbcbc</color>
+    <color name="list_color_selected">#dddddd</color>
+    <color name="list_color_light">@color/white</color>
+
+    <drawable name="list_background_even">#ffffff</drawable>
+    <drawable name="list_background_odd">#d9d9d9</drawable>
+
+</resources>

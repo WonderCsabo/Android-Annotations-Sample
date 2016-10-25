@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/emptyFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout_dummy1"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight=".1"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_dummy2"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight=".8"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/logoImage"
+            android:layout_width="@dimen/welcome_logo_width"
+            android:layout_height="@dimen/welcome_logo_height"
+            android:contentDescription="@string/app_name"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/mobuyle_large_logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/linearLayout_dummy2b"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/registerButton"
+                    style="@style/InsetButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_inset_background_red"
+                    android:text="@string/register_now"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/testDriveButton"
+                    style="@style/InsetButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/test_drive" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_dummy3"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight=".1"
+        android:orientation="horizontal" />
+
+</LinearLayout>

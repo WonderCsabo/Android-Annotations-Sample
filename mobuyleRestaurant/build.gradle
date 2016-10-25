@@ -8,14 +8,14 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.4'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
     }
 }
 
 apt {
     arguments {
         androidManifestFile variant.outputs[0].processResources.manifestFile
-        resourcePackageName 'com.hps.mobuyle.core'
+        resourcePackageName 'com.hps.mobuyle.restaurant'
     }
 }
 
@@ -48,35 +48,4 @@ dependencies {
     apt "org.androidannotations:androidannotations" + ":$AAVersion"
     compile "org.androidannotations:androidannotations-api:$AAVersion"
     compile project(':mobuyleCore')
-}
-
-def getSourceSetName(variant) {
-    return new File(variant.dirName).getName();
-}
-
-android.applicationVariants.each { variant ->
-    def aptOutputDir = project.file("build/source/apt")
-    def aptOutput = new File(aptOutputDir, variant.dirName)
-    println "****************************"
-    println "variant: ${variant.name}"
-    println "manifest:  ${variant.processResources.manifestFile}"
-    println "aptOutput:  ${aptOutput}"
-    println "****************************"
-
-    android.sourceSets[getSourceSetName(variant)].java.srcDirs+= aptOutput.getPath()
-
-    variant.javaCompile.options.compilerArgs += [
-            '-processorpath', configurations.apt.getAsPath(),
-            '-processor', 'org.androidannotations.AndroidAnnotationProcessor',
-            '-AandroidManifestFile=' + variant.processResources.manifestFile,
-            '-s', aptOutput
-    ]
-
-    variant.javaCompile.source = variant.javaCompile.source.filter { p ->
-        return !p.getPath().startsWith(aptOutputDir.getPath())
-    }
-
-    variant.javaCompile.doFirst {
-        aptOutput.mkdirs()
-    }
 }

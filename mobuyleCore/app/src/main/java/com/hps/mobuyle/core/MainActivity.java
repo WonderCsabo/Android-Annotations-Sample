@@ -1,7 +1,9 @@
 package com.hps.mobuyle.core;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
+
+import org.androidannotations.annotations.EActivity;
 
 @EActivity
 public class MainActivity extends Activity {
